@@ -88,6 +88,10 @@ St. Cecilia’s Hall (note the different venue)
 Niddry Street, Cowgate, Edinburgh, EH1 1NQ
 18:30-19:30
 
+![iash-concert](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/iash-workshop/iash-concert.jpg?token=ALENQRACKCZBUJRRSZSWSB26CS7RK)
+
+St. Cecilia’s Hall (http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/museums-and-galleries/musical-instrument-museums) is the oldest purpose-built concert hall in Scotland and it also houses a rich collection of historical music instruments. The concert features the "original fake" double-manual harpsichord by Robert Falkener, London, 1773 (as shown in the above picture. See also the instrument note below)
+
 _First Part_
 
 **Trio in C majorby Ignaz Pleyel (1757–1831)**
