@@ -4,8 +4,7 @@ title: Concert
 permalink: "/concert/"
 ---
 
-
-# (Dis-)Owning the Sound: A Workshop on the Historical Development of Music Property & Authorship
+# (Dis-)Owning the Sound: A Workshop on the Historical Development of Music Property & Authorship 
 
 ---
 
@@ -13,16 +12,14 @@ permalink: "/concert/"
 
 *Organised by Chen Wei Zhu and Jenny Nex*
 
-A Royal Society of Edinburgh Susan Manning Workshop (with a live concert kindly performed by teachers and students from the Reid School of Music)
+Time: Monday 16 June 2014 (starting 13.15 followed by a live concert kindly performed by teachers and students from the Reid School of Music in the evening)
 
 Venue: The Institute for Advanced Studies in the Humanities (IASH)
 Hope Park Square, Edinburgh, EH8 9NW
 
-Time: Monday 16 June 2014 (Registration starting 13.15 at the IASH)
-
 ---
 
-
+![jc-bach][]
 
 *Arrival and Registration* 
 
@@ -32,7 +29,7 @@ Time: Monday 16 June 2014 (Registration starting 13.15 at the IASH)
 
 
 
-Session I (chaired by Dr. Smita Kheria, Edinburgh Law School)_
+Session I (chaired by Dr. Smita Kheria, Edinburgh Law School)
 
 **Dr. Chen Wei Zhu (IASH, UoE)**, Lord Mansfield unwrapped: the significance of Bach v Longman in the history of music copyright 
 
@@ -49,7 +46,7 @@ The activities of the firm led by James Longman with his two partners Charles Lu
 
 
 
-Session II  (Chaired by Dr Chen Wei Zhu)_
+Session II  (Chaired by Dr Chen Wei Zhu)
 
 
 **Dr. Tom Tolley** (Edinburgh College of Art, UoE) ‘A bloody harmonious war’: Haydn, Pleyel, and Copyright in Late Eighteenth-Century London
