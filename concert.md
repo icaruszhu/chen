@@ -19,7 +19,7 @@ Hope Park Square, Edinburgh, EH8 9NW
 
 ---
 
-![jc-bach][https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/iash-workshop/jc-bach.jpg?token=ALENQRBQKYL4YEV5CR76GG26CS3FO]
+
 
 *Arrival and Registration* 
 
