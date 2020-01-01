@@ -25,15 +25,9 @@ Hope Park Square, Edinburgh, EH8 9NW
 
 
 
-*Arrival and Registration* 
-
 **Professor John Cairns**, (Edinburgh Law School) Welcome 
 
----
-
-
-
-Session I (chaired by Dr. Smita Kheria, Edinburgh Law School)
+**Session I (chaired by Dr. Smita Kheria, Edinburgh Law School)** 
 
 **Dr. Chen Wei Zhu (IASH, UoE)**, Lord Mansfield unwrapped: the significance of Bach v Longman in the history of music copyright 
 
@@ -55,7 +49,8 @@ Session I (chaired by Dr. Smita Kheria, Edinburgh Law School)
 
 
 
-Session II  (Chaired by Dr Chen Wei Zhu)
+**Session II  (Chaired by Dr Chen Wei Zhu)**
+
 
 
 **Dr. Tom Tolley** (Edinburgh College of Art, UoE) ‘A bloody harmonious war’: Haydn, Pleyel, and Copyright in Late Eighteenth-Century London
@@ -88,7 +83,7 @@ Niddry Street, Cowgate, Edinburgh, EH1 1NQ
 
 ![iash-concert](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/iash-workshop/iash-concert.jpg?token=ALENQRACKCZBUJRRSZSWSB26CS7RK)
 
-[St. Cecilia’s Hall] (http://www.ed.ac.uk/schools-departments/information-services/library-museum-gallery/museums-and-galleries/musical-instrument-museums) is the oldest purpose-built concert hall in Scotland and it also houses a rich collection of historical music instruments. The concert features the "original fake" double-manual harpsichord by Robert Falkener, London, 1773 (as shown in the above picture. See also the instrument note below)
+[St. Cecilia’s Hall](https://www.ed.ac.uk/visit/museums-galleries/st-cecilias) is the oldest purpose-built concert hall in Scotland and it also houses a rich collection of historical music instruments. The concert features the "original fake" double-manual harpsichord by Robert Falkener, London, 1773 (as shown in the above picture. See also the instrument note below)
 
 _First Part_
 
