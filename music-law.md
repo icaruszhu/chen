@@ -8,9 +8,11 @@ permalink: "/music-law/"
 
 ---
 
+Co-Organised by **Chen Wei Zhu** and **Jenny Nex**
 
+![jc-bach](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/iash-workshop/jc-bach.jpg?token=ALENQRBQKYL4YEV5CR76GG26CS3FO)
 
-*Organised by Chen Wei Zhu and Jenny Nex*
+Entrance to St Pancras Old Church, where J.C. Bach and his music partner Carl Friedrich Abel (1723-1787) were buried. On 28th July 1968, the Beatles also visited this church during their “Mad Day Out” in London. (Photo by Chen Wei Zhu CC–BY–SA 3.0 January 2014)
 
 Time: Monday 16 June 2014 (starting 13.15 followed by a live concert kindly performed by teachers and students from the Reid School of Music in the evening)
 
@@ -36,12 +38,6 @@ Session I (chaired by Dr. Smita Kheria, Edinburgh Law School)
 
 
 > On 10 June 1777, Lord Mansfield, Chief Justice of King’s Bench, handed down an important ruling in Bach v Longman, which established statutory copyright in music under the 1709/10 Statute of Anne. Less than a week later, on Monday 16 June 1777, the rest of the King’s Bench ratified Mansfield’s decision. (By pure coincidence, this research workshop takes place on the same day and same date of the week 237 years later.) The plaintiff, Johann Christian Bach (1735-1782), also known as the “London” Bach, was Johann Sebastian Bach’s youngest surviving son. He went to London in 1762 and became one of the most prominent composers in Georgian England in the second half of the 18th century, though he never managed to achieve what Handel had achieved before him in the first half of the century. Winning this particular case seems to have been a one-off courtroom success for J.C. Bach, who failed to develop a fully-fledged Classical style in music. The task of forging and perfecting the Classical style was later fulfilled by, amongst others, his student Mozart. Charles Sanford Terry, in a biography written in the 1920s, laments that J.C. Bach “has slumbered in a neglected grave” compared with his other brothers’ (especially C.P.E. Bach) musical achievements. My paper explores the much overlooked music aesthetics of Lord Mansfield, and how it is reflected in this landmark music copyright ruling in relation to J.C. Bach’s music.
-
-
-
-![jc-bach](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/iash-workshop/jc-bach.jpg?token=ALENQRBQKYL4YEV5CR76GG26CS3FO)
-
-Entrance to St Pancras Old Church, where J.C. Bach and his music partner Carl Friedrich Abel (1723-1787) were buried. On 28th July 1968, the Beatles also visited this church during their “Mad Day Out” in London. (Photo by Chen Wei Zhu CC–BY–SA 3.0 January 2014)
 
 
 
