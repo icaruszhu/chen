@@ -11,16 +11,19 @@ Title: A seminar for  Year 2 Contemporary Issues in International Law and Global
 
 Author: Chen W. Zhu (Birmingham Law School)
 
-Date: February 2019
-
 Licence: Creative Commons BY-SA Int'l @
 https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 
 
+![Marlin-firmware on Github 6 Nov 2019](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/marlin%20creality%20dispute/marlin-github%202019-11-06%2010-33-19.png?token=ALENQRFAMQFJUYLOHDJOQGC6CY5PG)
+
+*Caption* Marlin firmware's Github page. Please pay attention to its licence, which was breached by a 3D printer manufacturer based in China. (The breach was later rectified  by the company.) This incident was widely discussed within the 3D printing community.  
+
+---
 # READINGS
 
-
+---
 
 ## Questioning  “Intellectual Property”
 
@@ -166,27 +169,27 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 # Seminar questions for discussion
 
+---
 
 
-##### [Q1] What is the source code of software and what is its social significance?
 
-##### [Q2]  What is the difference between the Cathedral model and the Bazaar model in software development according to Eric Raymond? How does Raymond try to justify software ownership?
+[Q1] What is the source code of software and what is its social significance?
 
-##### [Q3] How software is protected under copyright law? What are the exceptions allowed by non-copyright holders under CDPA 1988?
+[Q2]  What is the difference between the Cathedral model and the Bazaar model in software development according to Eric Raymond? How does Raymond try to justify software ownership?
 
-##### [Q4] How to determine software copyright infringement? What is the *Altai* test? Is this test accepted by the UK court?
+[Q3] How software is protected under copyright law? What are the exceptions allowed by non-copyright holders under CDPA 1988?
 
-##### [Q5] What is the dispute between  Oracle and Google in relation to Java APIs?  Can APIs be protected by copyright law? Does Google have any defence?
+[Q4] How to determine software copyright infringement? What is the *Altai* test? Is this test accepted by the UK court?
 
-##### [Q6]  What is free and open source software (FOSS) movement? What is the difference between “free software” and “open source software”? What are the  four software freedoms according to Richard Stallman? Is it comparable to copyright exceptions allowed by in the EU/UK context?
+[Q5] What is the dispute between  Oracle and Google in relation to Java APIs?  Can APIs be protected by copyright law? Does Google have any defence?
 
-##### [Q7] What are version control systems? What are different types of them? What is special about  the version control system called Git?
+[Q6]  What is free and open source software (FOSS) movement? What is the difference between “free software” and “open source software”? What are the  four software freedoms according to Richard Stallman? Is it comparable to copyright exceptions allowed by in the EU/UK context?
 
-##### [Q8] What is the most popular licence adopted by software projects  on GitHub? If you have a smart mobile device, where can you find those FOSS licences?
+[Q7] What are version control systems? What are different types of them? What is special about  the version control system called Git?
 
-##### [Q9] What is the Linux kernel? What is its relation with the GNU system? (Why it is also called GNU/Linux?)  Can you find Linux’s repository on GitHub? Under which licence is the Linux kernel released?
+[Q8] What is the most popular licence adopted by software projects  on GitHub? If you have a smart mobile device, where can you find those FOSS licences?
 
-##### [Q10] What is the viral clause in the GNU Public Licence? Why is it called copyleft?  Is it enforceable ?
+[Q10] What is the viral clause in the GNU Public Licence? Why is it called copyleft?  Is it enforceable ?
 
 
 
