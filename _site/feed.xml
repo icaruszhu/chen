@@ -5,8 +5,8 @@
     <description>This is YALA's website</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jan 2020 13:22:41 +0000</pubDate>
-    <lastBuildDate>Wed, 01 Jan 2020 13:22:41 +0000</lastBuildDate>
+    <pubDate>Wed, 01 Jan 2020 14:40:22 +0000</pubDate>
+    <lastBuildDate>Wed, 01 Jan 2020 14:40:22 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -19,7 +19,8 @@
   &lt;li&gt;兼一种扰乱市场经济的行为;-)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;bitcoin&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/_posts/post-image/bitcoin.jpg?token=ALENQRHZIXP2Z77NCOKJICC6CXTCE&quot; alt=&quot;bitcoin&quot; /&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Fri, 28 Jun 2019 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/bitcoin/2019/06/28/non-digital-bitcoin.html</link>
@@ -55,6 +56,78 @@
         <category>jekyll</category>
         
         <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Law and Norms of Music Borrowing</title>
+        <description>&lt;h1 id=&quot;an-interdisciplinary-music-copyright-workshop--july-2015&quot;&gt;An Interdisciplinary Music Copyright Workshop  (July 2015)&lt;/h1&gt;
+
+&lt;p&gt;Co-organised by&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Dr. Chen Wei Zhu (School of Law, University of Birmingham)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Prof. Paul Heald (College of Law, University of Illinois)&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/_posts/post-image/JC%20Bach%20op.%205%20sonata.jpg?token=ALENQREZK2DEQWITVPSRXBC6CXT6M&quot; alt=&quot;JC Bach Op. 5 Sonata&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 1.00-5.30pm, 13 July 2015&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Venue&lt;/strong&gt;: Birmingham Law School&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Session I: Music borrowing in legal and historical context&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1.30-1.50 	&lt;strong&gt;Paul Heald&lt;/strong&gt; (University of Illinois): The current development of music copyright law in the US&lt;/p&gt;
+
+&lt;p&gt;1.50-2.20 	&lt;strong&gt;Chen Wei Zhu&lt;/strong&gt; (University of Birmingham):  (Dis-)harmony and Harmonisation: Charting the European legal landscape of music copyright before and after ECJ’s Infopaq ruling&lt;/p&gt;
+
+&lt;p&gt;(with further comments and elaboration from &lt;strong&gt;Lionel Bently&lt;/strong&gt;, University of Cambridge, &amp;amp; &lt;strong&gt;Luke McDonagh&lt;/strong&gt;, University of Cardiff)&lt;/p&gt;
+
+&lt;p&gt;2.20-2.40 	&lt;strong&gt;Ann Allen-Van Russell&lt;/strong&gt; (Trinity Laban): Musical borrowing in the eighteenth-century: Efficiency, Education and Homage&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;2.40-3.00 	First Coffee/Tea Break&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Session II. Reflecting on forensic musicology &amp;amp; music informatics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3.00-3.20 	&lt;strong&gt;Joe Bennett&lt;/strong&gt; (Boston Conservatoire) Reflecting on Forensic Musicology&lt;/p&gt;
+
+&lt;p&gt;3.20-3.40 	Response from &lt;strong&gt;Guy Protheroe&lt;/strong&gt; (Conductor, English Chamber Choir)&lt;/p&gt;
+
+&lt;p&gt;3.40-4.00 	&lt;strong&gt;Daniel Wolff&lt;/strong&gt; (London City University) On music similarity from the perspective of music informatics&lt;/p&gt;
+
+&lt;p&gt;4.00-4.10 	A mini-break&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Session III. Musicians and Performers’ Perspective&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;4.10-4.30 	&lt;strong&gt;Ananay Aguilar&lt;/strong&gt; (University of Cambridge): ‘Law and norm of music performance: an overview’&lt;/p&gt;
+
+&lt;p&gt;4.30-4.50 	&lt;strong&gt;Izzie Barrett&lt;/strong&gt; (musician): A day in the life of an internationally active jazz musician and our precarious relationship with copyright&lt;/p&gt;
+
+&lt;p&gt;4.50-5.30 	Open discussion &amp;amp; summary of critical issues identified in the roundtable&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Supported by a BRIDGE Collaboration Seed Fund&lt;/p&gt;
+
+&lt;p&gt;(with special thanks to the Music Department, University of Birmingham and Prof. Lionel Bently, University of Cambridge for their kind advice)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Mon, 13 Jul 2015 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/conference/2015/07/13/music-roundtable.html</link>
+        <guid isPermaLink="true">http://localhost:4000/conference/2015/07/13/music-roundtable.html</guid>
+        
+        
+        <category>conference</category>
         
       </item>
     

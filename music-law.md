@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Concert
-permalink: "/concert/"
+title: Music Law
+permalink: "/music-law/"
 ---
 
 # (Dis-)Owning the Sound: A Workshop on the Historical Development of Music Property & Authorship 
