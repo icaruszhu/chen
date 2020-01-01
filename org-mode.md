@@ -4,9 +4,9 @@ title: Org-mode
 permalink: "/org-mode/"
 ---
 
-# The Org-mode for the Disorganised
+# Chen Zhu: The Org-mode for the Disorganised (May 2019)
 
-- The Hacker Within (THW) presentation at UOB
+- Chen's Talk at The Hacker Within (THW) presentation at UOB
 
 ``` org
 #+TITLE: The Org-mode for the Disorganised
@@ -217,7 +217,7 @@ echo "## level 2" | pandoc
     download `packages.el` and `README.org` into
     \~/.emacs.d/private/psamim-org-zotero
   - add the `psamim-org-zotero` layer to \~/.spacema
-  cs
+    cs
 
 # summary: some useful spacemacs key chords
 

@@ -104,10 +104,10 @@ _First Part_
 **Oh Had I Jubal’s Lyre from Joshua (1748)	George Frideric Handel (1685–1759)**
 
 ```
- Harpsichord: David Gerrard*
- Violin: Emma Lloyd*
- Cello: Laura Sergeant*
- Soprano: Jenny Nex*
+ Harpsichord: David Gerrard
+ Violin: Emma Lloyd
+ Cello: Laura Sergeant
+ Soprano: Jenny Nex
 ```
 
 > *Note on the keyboard used for this concert*: Double-manual harpsichord by Robert Falkener, London, 1773
