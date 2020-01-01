@@ -12,4 +12,4 @@ categories: bitcoin
 - 兼一种扰乱市场经济的行为;-)
 
 
-![bitcoin](https://github.com/icaruszhu/icaruszhu.github.io/blob/master/_posts/bitcoin/bitcoin.jpg)
+![bitcoin]()
