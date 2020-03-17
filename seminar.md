@@ -66,7 +66,7 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 - ‘Git - About Version Control’  <https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control>
 
-- \* L Torvalds, ‘Tech Talk: Linus Torvalds on Git - YouTube’. https://www.youtube.com/watch?v=4XpnKHJAok8> (This talk is particular helpful in contextualising the Git technology by its inventor)
+- \* L Torvalds, ‘Tech Talk: Linus Torvalds on Git - YouTube’. https://www.youtube.com/watch?v=4XpnKHJAok8  (This talk is particular helpful in contextualising the Git technology by its inventor)
 
 - Eric Raymond, ‘Understanding Version-Control Systems (DRAFT)’. Accessed 2 February 2019. <http://www.catb.org/esr/writings/version-control/version-control.html#comparisons>.
 
@@ -77,8 +77,6 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode
 - Bird, Christian, Peter C. Rigby, Earl T. Barr, David J. Hamilton, Daniel M. German, and Prem Devanbu. ‘The Promises and Perils of Mining Git’. In *2009 6th IEEE International Working Conference on Mining Software Repositories*, 1–10. Vancouver, BC, Canada: IEEE, 2009. <https://doi.org/10.1109/MSR.2009.5069475>.
 
 - Brett, Matthew. ‘The Curious Coder’s Guide to Git — Curious Git’. <https://matthew-brett.github.io/curious-git/>.
-
-- ‘GitHub for Lawyers’. J DuClos <https://jduclos.com/notes/github-for-lawyers>.
 
 - ‘GitLaw: GitHub for Laws and Legal Documents - a Tourniquet for American Liberty’. Abe Voelker. Accessed 8 February 2019. <https://blog.abevoelker.com/gitlaw-github-for-laws-and-legal-documents-a-tourniquet-for-american-liberty/>.
 
@@ -189,7 +187,7 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 [Q8] What is the most popular licence adopted by software projects  on GitHub? If you have a smart mobile device, where can you find those FOSS licences?
 
-[Q10] What is the viral clause in the GNU Public Licence? Why is it called copyleft?  Is it enforceable ?
+[Q9] What is the viral clause in the GNU Public Licence? Why is it called copyleft?  Is it enforceable ?
 
 
 
