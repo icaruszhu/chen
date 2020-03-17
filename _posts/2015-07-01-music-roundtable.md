@@ -18,7 +18,7 @@ Co-organised by
 
 ---
 
-![JC Bach Op. 5 Sonata](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/_posts/post-image/JC%20Bach%20op.%205%20sonata.jpg?token=ALENQREZK2DEQWITVPSRXBC6CXT6M)
+![JC Bach Op. 5 Sonata](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/_posts/post-image/JC%20Bach%20op.%205%20sonata.jpg?token=ALENQRAO2O7AWSJXDN4LVKC6PHQ6S)
 
 **Time**: 1.00-5.30pm, 13 July 2015
 

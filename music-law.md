@@ -10,7 +10,7 @@ permalink: "/music-law/"
 
 Co-Organised by **Chen Wei Zhu** and **Jenny Nex**
 
-![jc-bach](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/iash-workshop/jc-bach.jpg?token=ALENQRBQKYL4YEV5CR76GG26CS3FO)
+![jc-bach](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/iash-workshop/jc-bach.jpg?token=ALENQRFWQ7DJSBJMNCJN5VK6PHOWI)
 
 Entrance to St Pancras Old Church, where J.C. Bach and his music partner Carl Friedrich Abel (1723-1787) were buried. On 28th July 1968, the Beatles also visited this church during their “Mad Day Out” in London. (Photo by Chen Wei Zhu CC–BY–SA 3.0 January 2014)
 
@@ -81,7 +81,7 @@ St. Cecilia’s Hall (note the different venue)
 Niddry Street, Cowgate, Edinburgh, EH1 1NQ
 18:30-19:30
 
-![iash-concert](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/iash-workshop/iash-concert.jpg?token=ALENQRACKCZBUJRRSZSWSB26CS7RK)
+![iash-concert](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/iash-workshop/iash-concert.jpg?token=ALENQRDTMKNEB5TYX4IOER26PHO3C)
 
 [St. Cecilia’s Hall](https://www.ed.ac.uk/visit/museums-galleries/st-cecilias) is the oldest purpose-built concert hall in Scotland and it also houses a rich collection of historical music instruments. The concert features the "original fake" double-manual harpsichord by Robert Falkener, London, 1773 (as shown in the above picture. See also the instrument note below)
 
