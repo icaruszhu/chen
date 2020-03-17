@@ -50,7 +50,7 @@ sudo apt install emacs26
 
 # Org-mode vs Evernote/Onenote
 
-  - open formate vs proprietary format
+  - open format vs proprietary format
   - importance of "grep-ability" (for regular expression search)
   - note-taking and drafting for writing projects
 
