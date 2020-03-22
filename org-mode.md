@@ -4,6 +4,9 @@ title: Org-mode
 permalink: "/org-mode/"
 ---
 
+
+[pdf slide](https://github.com/icaruszhu/chen/raw/gh-pages/_posts/thw-talk-orgmode/Orgmode-THW-May2019.pdf)
+
 # Chen Zhu: The Org-mode for the Disorganised (May 2019)
 
 - Chen's Talk at The Hacker Within (THW) presentation at UOB
