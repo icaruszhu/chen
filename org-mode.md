@@ -228,9 +228,6 @@ echo "## level 2" | pandoc
   - Deft: Alt-m a n
   - Pandoc: Alt-m P /
 
-# PDF slides -  download link
+# PDF slides 
 
-[Chen's org-mode talk PDF slides](https://github.com/icaruszhu/learning/blob/master/chen-thw-talk-orgmode-slides/Orgmode-THW-May2019.pdf)
-
-
-<a href="https://github.com/icaruszhu/learning/blob/master/chen-thw-talk-orgmode-slides/Orgmode-THW-May2019.pdf" download> Download Chen's Presentation as PDF Slides </a>                                      
+[Chen's org-mode talk PDF slides](https://github.com/icaruszhu/learning/blob/master/chen-thw-talk-orgmode-slides/Orgmode-THW-May2019.pdf)                          
