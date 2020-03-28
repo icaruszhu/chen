@@ -16,7 +16,7 @@ https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 
 
-![Marlin-firmware on Github 6 Nov 2019](https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/assets/marlin%20creality%20dispute/marlin-github%202019-11-06%2010-33-19.png?token=ALENQRERV2YWRSGS2WIEHZK6PHQL2)
+![Marlin-firmware on Github 6 Nov 2019](https://raw.githubusercontent.com/icaruszhu/learning/master/image/chen-github-pages/marlin%20creality%20dispute/marlin-github%202019-11-06%2010-33-19.png)
 
 *Caption* Marlin firmware's Github page. Please pay attention to its licence, which was breached by a 3D printer manufacturer based in China. (The breach was later rectified  by the company.) This incident was widely discussed within the 3D printing community.  
 
