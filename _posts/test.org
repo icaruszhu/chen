@@ -1,0 +1,6 @@
+#+title: an org-Jekyll test
+#+author: CHEN
+#+date: [2020-05-30 Sat]
+
+* heading 1
+* heading 2
