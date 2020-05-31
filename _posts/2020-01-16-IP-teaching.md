@@ -1,6 +1,7 @@
 ---
 title: IP Teaching in the new semester
 categories: teaching
+author: Chen Zhu
 ---
 
 
