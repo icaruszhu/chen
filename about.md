@@ -7,7 +7,7 @@ permalink: /about/
 
 ## Chen Wei Zhu
 - Lecturer in Law  (College of Arts and Law, University of Birmingham)
-- Yet Another Legal Academic (who loves emacs... ) 
+- Yet Another Legal Academic (who is addicted to Emacs... ) 
 
 ### Qualification
 - LLB (SISU, Shanghai) 

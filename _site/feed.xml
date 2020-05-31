@@ -2,20 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chen Zhu | YALA | Yet Another Legal Academic</title>
-    <description>This is YALA's website</description>
+    <description>Seeking Unbalanced Parentheses --- YALA's Incomplete Configuration of Life, Work and Everything</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 May 2020 00:05:11 +0100</pubDate>
-    <lastBuildDate>Sun, 31 May 2020 00:05:11 +0100</lastBuildDate>
+    <pubDate>Sun, 31 May 2020 14:32:53 +0100</pubDate>
+    <lastBuildDate>Sun, 31 May 2020 14:32:53 +0100</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
         <title>Adopt easy-jekyll for emacs</title>
-        <description>&lt;p&gt;I have tried to integrate Jekyll blogging into my Emacs workflow.&lt;/p&gt;
+        <description>&lt;p&gt;I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; package, which can be installed from Melpa. One can also install it with the good old &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use-package&lt;/code&gt; in your emacs init file. The official package recommends the following code for installation:&lt;/p&gt;
 
-&lt;p&gt;I am so glad to find the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; package, which can be installed from Melpa. One can install it with the good old &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use-package&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;:init&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll-basedir&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/my-awesome-site/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll-url&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;https://yourblogdomain&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll-sshdomain&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;blogdomain&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll-root&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/home/blog/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll-previewtime&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;:bind&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C-c C-e&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Once installed, the eponymous &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; command is bound to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C-c C-e&lt;/code&gt;. It is truly EASY to use!&lt;/p&gt;
+&lt;p&gt;Here is the link to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; on Github:
+https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)&lt;/p&gt;
+
+&lt;p&gt;Once installed, the eponymous &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; command is recommeded to be bound to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C-c C-e&lt;/code&gt; (see above). However, I find this keybinding clashes with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;org-export-dispatch&lt;/code&gt; if you are already working in an org file. So better avoid using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C-c C-e&lt;/code&gt; here and choose a non-clashing keybinding, which can be easily done.&lt;/p&gt;
+
+&lt;p&gt;Following the instruction, I also need to write a simple  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delopy.sh&lt;/code&gt; bash script stored in my jekyll root directory. This allows me to automatically &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;push&lt;/code&gt; (aka “upload”) the updated blog(s) to my github pages by pressing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;G&lt;/code&gt; on the keyboard.&lt;/p&gt;
+
+&lt;p&gt;Once everything is (minimally) configured , &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; is truly EASY to use!&lt;/p&gt;
+
+&lt;p&gt;PS: I also learn that it is possible to write Jekyll blogs with Emacs’s super powerful &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Org&lt;/code&gt; mode. There seem to be many ways of doing this. Elsa Gonsiorowski has done a fantastic survey on different ways of implementing an Org-led workflow. https://www.gonsie.com/blorg/survey-org-jekyll.html&lt;/p&gt;
 </description>
         <pubDate>Sat, 30 May 2020 23:03:07 +0100</pubDate>
         <link>http://localhost:4000/2020/05/30/using-easy-jekyll.html</link>

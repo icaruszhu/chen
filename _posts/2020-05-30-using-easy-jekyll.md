@@ -23,7 +23,7 @@ https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)
 
 Once installed, the eponymous ```easy-jekyll``` command is recommeded to be bound to ```C-c C-e``` (see above). However, I find this keybinding clashes with ```org-export-dispatch``` if you are already working in an org file. So better avoid using ```C-c C-e``` here and choose a non-clashing keybinding, which can be easily done.
 
-Following the instruction, I also write a  ```delopy.sh``` bash script in my jekyll root directory.  This allows me to automatically ```push``` (aka "upload") the updated blog(s) to my github pages by pressing ```G``` on the keyboard. 
+Following the instruction, I also need to write a simple  ```delopy.sh``` bash script stored in my jekyll root directory. This allows me to automatically ```push``` (aka "upload") the updated blog(s) to my github pages by pressing ```G``` on the keyboard. 
 
 Once everything is (minimally) configured , ```easy-jekyll``` is truly EASY to use!
 
