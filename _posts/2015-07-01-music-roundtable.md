@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Law and Norms of Music Borrowing 
 date:   2015-07-13
 categories: conference

@@ -5,9 +5,66 @@
     <description>This is YALA's website</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jan 2020 20:35:03 +0000</pubDate>
-    <lastBuildDate>Wed, 01 Jan 2020 20:35:03 +0000</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Sun, 31 May 2020 00:05:11 +0100</pubDate>
+    <lastBuildDate>Sun, 31 May 2020 00:05:11 +0100</lastBuildDate>
+    <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Adopt easy-jekyll for emacs</title>
+        <description>&lt;p&gt;I have tried to integrate Jekyll blogging into my Emacs workflow.&lt;/p&gt;
+
+&lt;p&gt;I am so glad to find the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; package, which can be installed from Melpa. One can install it with the good old &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use-package&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Once installed, the eponymous &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; command is bound to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C-c C-e&lt;/code&gt;. It is truly EASY to use!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 May 2020 23:03:07 +0100</pubDate>
+        <link>http://localhost:4000/2020/05/30/using-easy-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/05/30/using-easy-jekyll.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sumptuary Law and Ambush Marketing</title>
+        <description>&lt;h1 id=&quot;adjudicating-sartorial-elegance-from-the-court-my-new-article-on-the-sumptuary-impulse-of--anti-ambush-marketing-law-in-the-latest-issue-of-qmjip&quot;&gt;“Adjudicating Sartorial Elegance from the Court”: My new article on the sumptuary impulse of  anti-ambush marketing law in the latest issue of QMJIP&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Ambush marketing, sometimes also known as guerrilla marketing, comprises attempts to create an unauthorized association with mega-sporting  events (such as the Olympic Games and the FIFA World Cup) without  obtaining official sponsorship agreements. This article contends that  the contemporary law of sports sponsorships against ambush marketing  harbours a palpable but much-neglected sumptuary impulse, which has  never before been adequately scrutinized. It shows that pre-modern  sumptuary law strangely resonates with modern anti-ambush law’s  sumptuary obsession with the visual order of symbols and images as  prestige signifiers. It also reveals an ongoing ‘intellectual property’  turn in the recent development of sumptuary anti-ambush law-making,  whose ambition is to reify sports-derived sumptuary distinction into a  thing-in-itself for nearly absolute ‘property’ protection. My argument  is illustrated by a carefully selected number of ambush disputes  including &lt;em&gt;Australian Olympic Committee (AOC) v Telstra&lt;/em&gt;, which represents the latest development in this field of law.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Full text is &lt;a href=&quot;https://www.elgaronline.com/view/journals/qmjip/10-1/qmjip.2020.01.03.xml?&amp;amp;pdfVersion=true&quot;&gt;free for download from here.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Citation: Chen Wei Zhu, “Adjudicating Sartorial Elegance from the Court—The Sumptuary  Impulse in the Law of Modern Sports Sponsorship against Ambush  Marketing”, &lt;em&gt;Queen Mary Journal of Intellectual Property&lt;/em&gt; (2020)10 (1) 62–86&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/publication/2020/03/22/sumptuary-law.html</link>
+        <guid isPermaLink="true">http://localhost:4000/publication/2020/03/22/sumptuary-law.html</guid>
+        
+        
+        <category>publication</category>
+        
+      </item>
+    
+      <item>
+        <title>IP Teaching in the new semester</title>
+        <description>&lt;h1 id=&quot;two-new-textbooks-adopted-for-this-academic-years-ip-law-teaching&quot;&gt;Two new textbooks adopted for this academic year’s IP law teaching&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/learning/master/image/blog-image/IP-teaching-book-cover/karapapa-IP%20-aw.jpeg&quot; alt=&quot;IP-textbook&quot; style=&quot;zoom: 200%;&quot; /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/learning/master/image/blog-image/IP-teaching-book-cover/50-IP-objects.jpg&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/teaching/2020/01/16/IP-teaching.html</link>
+        <guid isPermaLink="true">http://localhost:4000/teaching/2020/01/16/IP-teaching.html</guid>
+        
+        
+        <category>teaching</category>
+        
+      </item>
     
       <item>
         <title>non-crypto-bitcoin</title>
@@ -19,7 +76,7 @@
   &lt;li&gt;兼一种扰乱市场经济的行为;-)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/_posts/post-image/bitcoin.jpg?token=ALENQRHZIXP2Z77NCOKJICC6CXTCE&quot; alt=&quot;bitcoin&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/learning/master/image/blog-image/bitcoin.jpg&quot; alt=&quot;bitcoin&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 28 Jun 2019 00:00:00 +0100</pubDate>
@@ -28,34 +85,6 @@
         
         
         <category>bitcoin</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 26 May 2019 15:43:04 +0100</pubDate>
-        <link>http://localhost:4000/jekyll/update/2019/05/26/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/05/26/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
         
       </item>
     
@@ -71,7 +100,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/chen/gh-pages/_posts/post-image/JC%20Bach%20op.%205%20sonata.jpg?token=ALENQREZK2DEQWITVPSRXBC6CXT6M&quot; alt=&quot;JC Bach Op. 5 Sonata&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/learning/master/image/blog-image/JC%20Bach%20op.%205%20sonata.jpg&quot; alt=&quot;JC Bach Op. 5 Sonata&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 1.00-5.30pm, 13 July 2015&lt;/p&gt;
 

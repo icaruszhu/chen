@@ -32,6 +32,8 @@ github_username:  icaruszhu
 # markdown: kramdown
 
 # exclude (added 28 May 2019)
-# exclude: [Gemfile, Gemfile.lock, README.md, vendor, org, .hyde.el]
+# exclude: [Gemfile, Gemfile.lock, README.md, vendor, .hyde.el]
 
-
+# to use the jekyll-org converter [2020-05-31 Sun]
+# plugins:
+# - jekyll-org

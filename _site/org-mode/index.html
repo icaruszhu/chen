@@ -104,7 +104,7 @@
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>add-apt-repository ppa:kelleyk/emacs <span class="nt">-y</span>
 <span class="nb">sudo </span>apt-get update
-<span class="nb">sudo </span>apt install emacs26
+<span class="nb">sudo </span>apt <span class="nb">install </span>emacs26
 </code></pre></div></div>
 
 <h1 id="part-i-introducing-org-mode">Part I Introducing Org-mode</h1>
@@ -132,7 +132,7 @@ plain-text system.”</li>
 <h1 id="org-mode-vs-evernoteonenote">Org-mode vs Evernote/Onenote</h1>
 
 <ul>
-  <li>open formate vs proprietary format</li>
+  <li>open format vs proprietary format</li>
   <li>importance of “grep-ability” (for regular expression search)</li>
   <li>note-taking and drafting for writing projects</li>
 </ul>
@@ -194,7 +194,7 @@ remain the same)</li>
 
 <h1 id="customising-the-todo-sequence">Customising the TODO sequence</h1>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#+SEQ_TODO: TODO(t) IN-PROGRESS(p) WAITING(w) |  DONE(d)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#+SEQ_TODO: TODO(t) IN-PROGRESS(p) WAITING(w) |  DONE(d)
 </code></pre></div></div>
 
 <h1 id="agenda-view">Agenda view</h1>
@@ -267,7 +267,7 @@ Spacemacs)</li>
 
 <h1 id="shell-command">Shell command</h1>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo </span>today is <span class="sb">`</span>date<span class="sb">`</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo </span>today is <span class="sb">`</span><span class="nb">date</span><span class="sb">`</span>
 </code></pre></div></div>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"## level 2"</span> | pandoc 
@@ -317,11 +317,11 @@ Spacemacs)</li>
   <li>download spacemacs into ~/.emacs.d/</li>
 </ul>
 
-<p><code class="highlighter-rouge">$ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d</code></p>
+<p><code class="language-plaintext highlighter-rouge">$ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d</code></p>
 
 <ul>
-  <li><code class="highlighter-rouge">~/emacs.d/</code></li>
-  <li><code class="highlighter-rouge">~/.spacemacs</code></li>
+  <li><code class="language-plaintext highlighter-rouge">~/emacs.d/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">~/.spacemacs</code></li>
 </ul>
 
 <h1 id="spacemacs-configuration">Spacemacs configuration</h1>
@@ -404,9 +404,9 @@ or any mode you like</li>
   <li>create a private layer: “Alt-x configuration-layer/create-layer”</li>
   <li>download the below two files from this link:
 <a href="https://github.com/psamim/dotfiles/tree/master/spacemacs/private/psamim-org-zotero">https://github.com/psamim/dotfiles/tree/master/spacemacs/private/psamim-org-zotero</a>
-download <code class="highlighter-rouge">packages.el</code> and <code class="highlighter-rouge">README.org</code> into
+download <code class="language-plaintext highlighter-rouge">packages.el</code> and <code class="language-plaintext highlighter-rouge">README.org</code> into
 ~/.emacs.d/private/psamim-org-zotero</li>
-  <li>add the <code class="highlighter-rouge">psamim-org-zotero</code> layer to ~/.spacema
+  <li>add the <code class="language-plaintext highlighter-rouge">psamim-org-zotero</code> layer to ~/.spacema
 cs</li>
 </ul>
 
@@ -420,6 +420,10 @@ cs</li>
   <li>Deft: Alt-m a n</li>
   <li>Pandoc: Alt-m P /</li>
 </ul>
+
+<h1 id="pdf-slides">PDF slides</h1>
+
+<p><a href="https://github.com/icaruszhu/learning/blob/master/chen-thw-talk-orgmode-slides/Orgmode-THW-May2019.pdf">Chen’s org-mode talk PDF slides</a></p>
 
   </div>
 
