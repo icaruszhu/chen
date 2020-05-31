@@ -27,4 +27,4 @@ Following the instruction, I also write put ```delopy.sh``` bash script,  This a
 
 Once everything is configured , ```easy-jekyll``` is truly EASY to use!
 
-PS: I also learn that it is possible to  write Jekyll blogs with Emacs's super powerfull ```Org``` mode. There seems to be many ways of doing this. Elsa Gonsiorowski has done a fantastic survey about different ways of using an Org-led workflow. https://www.gonsie.com/blorg/survey-org-jekyll.html
+PS: I also learn that it is possible to write Jekyll blogs with Emacs's super powerful ```Org``` mode. There seem to be many ways of doing this. Elsa Gonsiorowski has done a fantastic survey on different ways of implementing an Org-led workflow. https://www.gonsie.com/blorg/survey-org-jekyll.html
