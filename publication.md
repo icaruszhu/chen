@@ -4,7 +4,7 @@ title: Publications
 permalink: "/publication/"
 ---
 
-# selected publications
+# selected publications in English
 
 
 - CW Zhu, ["Adjudicating Sartorial Elegance from the Court—The Sumptuary Impulse in the Law of Modern Sports Sponsorship against Ambush Marketing](https://www.elgaronline.com/view/journals/qmjip/10-1/qmjip.2020.01.03.xml?&amp;pdfVersion=true)", *Queen Mary Journal of Intellectual Property* (2020)10 (1) 62–86
@@ -15,6 +15,8 @@ permalink: "/publication/"
 
 # ad-hoc blog posts
 
-- CW Zhu, [“Inventing Musical Property: Mozart, Mansfield and the ‘London’ Bach”](https://www.creatorsrights.law.ed.ac.uk/?p=476)  *Copyright and Creator*, May 2014
+- CW Zhu, [“Inventing Musical Property: Mozart, Mansfield and the ‘London’ Bach”](https://www.creatorsrights.law.ed.ac.uk/?p=476)  *Copyright and Creators*, May 2014
 
-- CW Zhu, [“Squaring Analogue Copyright with Digital Humanities or… ‘Storming the Barricade’?”](https://www.creatorsrights.law.ed.ac.uk/?p=378)  *Copyright and Creator*, February 2014
+- CW Zhu, [“Squaring Analogue Copyright with Digital Humanities or… ‘Storming the Barricade’?”](https://www.creatorsrights.law.ed.ac.uk/?p=378)  *Copyright and Creators*, February 2014
+
+# essays in Chinese 中文
