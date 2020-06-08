@@ -227,6 +227,4 @@ echo "## level 2" | pandoc
   - Org-zotex-mode: Alt-m m z i (zotero insert)
   - Deft: Alt-m a n
   - Pandoc: Alt-m P /
-
-# PDF slides 
-                         
+      
