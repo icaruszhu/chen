@@ -80,7 +80,7 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the <code class="language-plaintext highlighter-rouge">easy-jekyll</code> package, which can be installed from Melpa. One can also install it with the good old <code class="language-plaintext highlighter-rouge">use-package</code> in your emacs init file. The official package recommends the following code for installation:</p>
+    <p>I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the <code class="language-plaintext highlighter-rouge">easy-jekyll</code> <a href="https://github.com/masasam/emacs-easy-jekyll">package</a>, which can be installed from <a href="https://melpa.org/#/easy-jekyll">Melpa</a>. One can also install it with the good old <a href="https://github.com/jwiegley/use-package"><code class="language-plaintext highlighter-rouge">use-package</code></a> in your emacs init file. The official package recommends the following code for installation:</p>
 
 <div class="language-lisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nb">use-package</span> <span class="nv">easy-jekyll</span>
 <span class="ss">:init</span>
@@ -97,7 +97,7 @@ https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)</p>
 
 <p>Once installed, the eponymous <code class="language-plaintext highlighter-rouge">easy-jekyll</code> command is recommeded to be bound to <code class="language-plaintext highlighter-rouge">C-c C-e</code> (see above). However, I find this keybinding clashes with <code class="language-plaintext highlighter-rouge">org-export-dispatch</code> if you are already working in an org file. So better avoid using <code class="language-plaintext highlighter-rouge">C-c C-e</code> here and choose a non-clashing keybinding, which can be easily done.</p>
 
-<p>Following the instruction, I also need to write a simple  <code class="language-plaintext highlighter-rouge">delopy.sh</code> bash script stored in my jekyll root directory. This allows me to automatically <code class="language-plaintext highlighter-rouge">push</code> (aka “upload”) the updated blog(s) to my github pages by pressing <code class="language-plaintext highlighter-rouge">G</code> on the keyboard.</p>
+<p>Following the instruction, I also need to write a simple  <code class="language-plaintext highlighter-rouge">delopy.sh</code> bash script stored in my jekyll root directory. This allows me to automatically <code class="language-plaintext highlighter-rouge">push</code> (aka “upload”) the updated blog article(s) to my github pages by pressing <code class="language-plaintext highlighter-rouge">G</code> on the keyboard.</p>
 
 <p>Once everything is (minimally) configured , <code class="language-plaintext highlighter-rouge">easy-jekyll</code> is truly EASY to use!</p>
 

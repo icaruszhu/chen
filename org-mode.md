@@ -146,7 +146,7 @@ echo "## level 2" | pandoc
 # Emacs lisp 
 
 ``` elisp
-(car '(1,2,3,4))
+(car '(1 2 3 4))
 ```
 
 # Org-mode easy templates
@@ -229,5 +229,4 @@ echo "## level 2" | pandoc
   - Pandoc: Alt-m P /
 
 # PDF slides 
-
-[Chen's org-mode talk PDF slides](https://github.com/icaruszhu/learning/blob/master/chen-thw-talk-orgmode-slides/Orgmode-THW-May2019.pdf)                          
+                         
