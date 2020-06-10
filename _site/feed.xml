@@ -5,9 +5,27 @@
     <description>Seeking Unbalanced Parentheses | YALA's Incomplete Configuration of Life, Work and Everything</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jun 2020 17:16:35 +0100</pubDate>
-    <lastBuildDate>Mon, 08 Jun 2020 17:16:35 +0100</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2020 21:51:42 +0100</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2020 21:51:42 +0100</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Temple OS</title>
+        <description>&lt;p&gt;Is Terry Davis’s TempleOS the software equivalent of Beethoven’s Symphony No.5?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Terry_A._Davis&quot;&gt;Davis (1969–2018)&lt;/a&gt; is a solitary programmer who authors this public-domain operating system called &lt;a href=&quot;https://templeos.org/&quot;&gt;TempleOS&lt;/a&gt; written in the programming language called HolyC.&lt;/p&gt;
+
+&lt;p&gt;I also happen to notice that Davis was born in the same year as Linus Torvalds.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/learning/master/image/blog-image/TempleOS-download-screenshot.png&quot; alt=&quot;templeOS&quot; width=&quot;95%&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 10 Jun 2020 18:56:12 +0100</pubDate>
+        <link>http://localhost:4000/2020/06/10/templeOS.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/10/templeOS.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Linux Distro Hopping</title>
@@ -91,6 +109,7 @@ https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/learning/master/image/blog-image/IP-teaching-book-cover/karapapa-IP%20-aw.jpeg&quot; alt=&quot;IP-textbook&quot; style=&quot;zoom: 200%;&quot; /&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/learning/master/image/blog-image/IP-teaching-book-cover/50-IP-objects.jpg&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/_download/IP-textbook-objects-2020.pdf&quot;&gt;LLM IP Textbook Reading (2019-2020) Plan&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/teaching/2020/01/16/IP-teaching.html</link>
