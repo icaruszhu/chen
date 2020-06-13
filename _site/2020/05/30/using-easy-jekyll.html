@@ -82,7 +82,15 @@
   <div class="post-content" itemprop="articleBody">
     <p>I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the <code class="language-plaintext highlighter-rouge">easy-jekyll</code> <a href="https://github.com/masasam/emacs-easy-jekyll">package</a>, which can be installed from <a href="https://melpa.org/#/easy-jekyll">Melpa</a>. One can also install it with the good old <a href="https://github.com/jwiegley/use-package"><code class="language-plaintext highlighter-rouge">use-package</code></a> in your emacs init file. The official package recommends the following code for installation:</p>
 
-<div class="language-lisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nb">use-package</span> <span class="nv">easy-jekyll</span>
+<div class="language-lisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="p">(</span><span class="nb">use-package</span> <span class="nv">easy-jekyll</span>
 <span class="ss">:init</span>
 <span class="p">(</span><span class="k">setq</span> <span class="nv">easy-jekyll-basedir</span> <span class="s">"~/my-awesome-site/"</span><span class="p">)</span>
 <span class="p">(</span><span class="k">setq</span> <span class="nv">easy-jekyll-url</span> <span class="s">"https://yourblogdomain"</span><span class="p">)</span>
@@ -90,7 +98,7 @@
 <span class="p">(</span><span class="k">setq</span> <span class="nv">easy-jekyll-root</span> <span class="s">"/home/blog/"</span><span class="p">)</span>
 <span class="p">(</span><span class="k">setq</span> <span class="nv">easy-jekyll-previewtime</span> <span class="s">"300"</span><span class="p">)</span>
 <span class="ss">:bind</span> <span class="p">(</span><span class="s">"C-c C-e"</span> <span class="o">.</span> <span class="nv">easy-jekyll</span><span class="p">))</span>
-</code></pre></div></div>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Here is the link to <code class="language-plaintext highlighter-rouge">easy-jekyll</code> on Github:
 https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)</p>

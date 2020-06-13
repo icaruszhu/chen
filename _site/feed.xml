@@ -5,8 +5,8 @@
     <description>Seeking Unbalanced Parentheses | YALA's Incomplete Configuration of Life, Work and Everything</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jun 2020 21:51:42 +0100</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2020 21:51:42 +0100</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2020 00:00:24 +0100</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2020 00:00:24 +0100</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -29,7 +29,7 @@
     
       <item>
         <title>Linux Distro Hopping</title>
-        <description>&lt;p&gt;I have tried numerous Linux distros (including Fedora, OpenSuse, MX Linux, ElementaryOS, Ubunutu (with Gnome and Mate), Manjaro, KDE Neon, Puppy Linux, TinyCore, etc etc) in the past. So I think I am a qualified “Linux distro hopper”. I have not tried FreeBSD, simply because BSD is seriously NOT a Linux distribution ;-)&lt;/p&gt;
+        <description>&lt;p&gt;I have tried numerous Linux distros (including Fedora, OpenSuse, MX Linux, ElementaryOS, Ubunutu (with Gnome and Mate), Mint, Manjaro, KDE Neon, Puppy Linux, TinyCore, etc etc) in the past. So I think I am a qualified “Linux distro hopper”. I have not tried FreeBSD, simply because BSD is seriously NOT a Linux distribution ;-)&lt;/p&gt;
 
 &lt;p&gt;The current GNU/Linux system I settle on is Kubuntu 20.04 (a Ubunutu distribution with the K Desktop Environment). I like the KDE Plasma experience a lot. Almost one month ago (April 2020), I tried to upgrade from Ubuntu 18.04 to Ubuntu 20.04, but failed spectacularly. This failure made me look around for something else and I chanced upon Manjaro KDE (which is an ARCH based distribution). I used Manjaro KDE for about a month and I liked it a lot. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Pacman&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Yay&lt;/code&gt; made it super easy to install bleeding-edge software packages from &lt;a href=&quot;https://aur.archlinux.org/&quot;&gt;AUR or ARCH User Repository&lt;/a&gt;. For example, it is a bit a pain to install the latest version of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pandoc&lt;/code&gt; from the official Ubuntu software repo. With &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pacman&lt;/code&gt;, all I need to do is to type a one-line command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pacman -S pandoc&lt;/code&gt; in the terminal.&lt;/p&gt;
 
@@ -49,7 +49,15 @@
         <title>Adopt easy-jekyll for emacs</title>
         <description>&lt;p&gt;I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; &lt;a href=&quot;https://github.com/masasam/emacs-easy-jekyll&quot;&gt;package&lt;/a&gt;, which can be installed from &lt;a href=&quot;https://melpa.org/#/easy-jekyll&quot;&gt;Melpa&lt;/a&gt;. One can also install it with the good old &lt;a href=&quot;https://github.com/jwiegley/use-package&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use-package&lt;/code&gt;&lt;/a&gt; in your emacs init file. The official package recommends the following code for installation:&lt;/p&gt;
 
-&lt;div class=&quot;language-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll&lt;/span&gt;
+&lt;div class=&quot;language-lisp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;:init&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll-basedir&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/my-awesome-site/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll-url&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;https://yourblogdomain&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -57,7 +65,7 @@
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll-root&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/home/blog/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll-previewtime&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;300&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;:bind&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C-c C-e&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;easy-jekyll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Here is the link to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easy-jekyll&lt;/code&gt; on Github:
 https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)&lt;/p&gt;
@@ -109,7 +117,7 @@ https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/learning/master/image/blog-image/IP-teaching-book-cover/karapapa-IP%20-aw.jpeg&quot; alt=&quot;IP-textbook&quot; style=&quot;zoom: 200%;&quot; /&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/icaruszhu/learning/master/image/blog-image/IP-teaching-book-cover/50-IP-objects.jpg&quot; style=&quot;zoom:67%;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://localhost:4000/_download/IP-textbook-objects-2020.pdf&quot;&gt;LLM IP Textbook Reading (2019-2020) Plan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/ download/IP-textbook-objects-2020.pdf&quot;&gt;LLM IP Textbook Reading (2019-2020) Plan&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/teaching/2020/01/16/IP-teaching.html</link>
@@ -139,6 +147,19 @@ https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)&lt;/p&gt;
         
         
         <category>bitcoin</category>
+        
+      </item>
+    
+      <item>
+        <title>Copying Banksymus</title>
+        <description>&lt;p&gt;Copying Banksymus by Chen&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/general/2016/01/01/bankymus.html</link>
+        <guid isPermaLink="true">http://localhost:4000/general/2016/01/01/bankymus.html</guid>
+        
+        
+        <category>General</category>
         
       </item>
     

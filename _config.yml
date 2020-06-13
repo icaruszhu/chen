@@ -37,3 +37,13 @@ github_username:  icaruszhu
 # to use the jekyll-org converter [2020-05-31 Sun]
 # plugins:
 # - jekyll-org
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  # enable line_numbers in code blocks
+  syntax_highlighter_opts:
+        block:
+            line_numbers: true  
+highlighter: rouge
