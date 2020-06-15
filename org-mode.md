@@ -4,6 +4,10 @@ title: Org-mode
 permalink: "/org-mode/"
 ---
 
+- TOC
+
+{:toc}
+
 # Chen Zhu: The Org-mode for the Disorganised (May 2019)
 
 - Chen's Talk at The Hacker Within (THW) presentation at UOB
@@ -227,4 +231,4 @@ echo "## level 2" | pandoc
   - Org-zotex-mode: Alt-m m z i (zotero insert)
   - Deft: Alt-m a n
   - Pandoc: Alt-m P /
-      
+    
