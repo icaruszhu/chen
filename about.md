@@ -5,7 +5,10 @@ permalink: /about/
 ---
 
 
+{:toc}
+
 ## Chen Wei Zhu
+
 - Lecturer in Law  (College of Arts and Law, University of Birmingham)
 - Yet Another Legal Academic (who is addicted to Emacs... ) 
 
