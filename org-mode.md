@@ -4,7 +4,7 @@ title: Org-mode
 permalink: "/org-mode/"
 ---
 
-- TOC
+* TOC
 
 {:toc}
 
