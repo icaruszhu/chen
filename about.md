@@ -5,9 +5,8 @@ permalink: /about/
 ---
 
 
-# TOC
-{:toc}
 
+{:toc}
 ## Chen Wei Zhu
 
 - Lecturer in Law  (College of Arts and Law, University of Birmingham)
