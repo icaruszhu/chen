@@ -16,18 +16,18 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the easy-jekyll package, which can be installed from Melpa. One can also install it with the good old use-package in your emacs init file. The official package recommends the following code for installation:" />
 <meta property="og:description" content="I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the easy-jekyll package, which can be installed from Melpa. One can also install it with the good old use-package in your emacs init file. The official package recommends the following code for installation:" />
-<link rel="canonical" href="http://localhost:4000/zhu/2020/05/30/using-easy-jekyll/" />
-<meta property="og:url" content="http://localhost:4000/zhu/2020/05/30/using-easy-jekyll/" />
+<link rel="canonical" href="http://localhost:4000/chen/2020/05/30/using-easy-jekyll/" />
+<meta property="og:url" content="http://localhost:4000/chen/2020/05/30/using-easy-jekyll/" />
 <meta property="og:site_name" content="Chen Zhu" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-05-30T23:03:07+01:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","dateModified":"2020-05-30T23:03:07+01:00","datePublished":"2020-05-30T23:03:07+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/zhu/2020/05/30/using-easy-jekyll/"},"headline":"Adopt easy-jekyll for emacs","author":{"@type":"Person","name":"Chen Zhu"},"description":"I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the easy-jekyll package, which can be installed from Melpa. One can also install it with the good old use-package in your emacs init file. The official package recommends the following code for installation:","url":"http://localhost:4000/zhu/2020/05/30/using-easy-jekyll/","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","dateModified":"2020-05-30T23:03:07+01:00","datePublished":"2020-05-30T23:03:07+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/chen/2020/05/30/using-easy-jekyll/"},"headline":"Adopt easy-jekyll for emacs","author":{"@type":"Person","name":"Chen Zhu"},"description":"I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the easy-jekyll package, which can be installed from Melpa. One can also install it with the good old use-package in your emacs init file. The official package recommends the following code for installation:","url":"http://localhost:4000/chen/2020/05/30/using-easy-jekyll/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
 
-    <link rel="manifest" href="/zhu/manifest.json">
+    <link rel="manifest" href="/chen/manifest.json">
     <meta name="theme-color" content="#242e2b"/>
 
     
@@ -84,56 +84,56 @@
       
 
       <li class="item  item--nav">
-        <a href="/zhu/">Home</a>
+        <a href="/chen/">Home</a>
       </li>
     
 
       
 
       <li class="item  item--nav">
-        <a href="/zhu/about/">About</a>
+        <a href="/chen/about/">About</a>
       </li>
     
 
       
 
       <li class="item  item--nav">
-        <a href="/zhu/publication/">Publication</a>
+        <a href="/chen/publication/">Publication</a>
       </li>
     
 
       
 
       <li class="item  item--nav">
-        <a href="/zhu/music-law/">Music Law</a>
+        <a href="/chen/music-law/">Music Law</a>
       </li>
     
 
       
 
       <li class="item  item--nav">
-        <a href="/zhu/seminar/">FOSS</a>
+        <a href="/chen/seminar/">FOSS</a>
       </li>
     
 
       
 
       <li class="item  item--nav">
-        <a href="/zhu/org-mode/">Org-mode</a>
+        <a href="/chen/org-mode/">Org-mode</a>
       </li>
     
 
       
 
       <li class="item  item--nav">
-        <a href="/zhu/blog/">Un-thoughts</a>
+        <a href="/chen/blog/">Un-thoughts</a>
       </li>
     
 
       
 
       <li class="item  item--nav">
-        <a href="/zhu/search/">Search</a>
+        <a href="/chen/search/">Search</a>
       </li>
     
   </ul>
@@ -201,22 +201,14 @@
     
   &nbsp;&middot;&nbsp;<time datetime="2020-05-30T23:03:07+01:00" class="time">30 May 2020&nbsp;&middot;&nbsp;&nbsp;</time> 
   
-  <u> An un-thought by &nbsp;&middot;Chen Zhu </u>   
+  <u> An un-thought by &nbsp;&middot;&nbsp;Chen Zhu </u>   
   
 </small>
 
     
     <p>I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the <code class="highlighter-rouge">easy-jekyll</code> <a href="https://github.com/masasam/emacs-easy-jekyll">package</a>, which can be installed from <a href="https://melpa.org/#/easy-jekyll">Melpa</a>. One can also install it with the good old <a href="https://github.com/jwiegley/use-package"><code class="highlighter-rouge">use-package</code></a> in your emacs init file. The official package recommends the following code for installation:</p>
 
-<div class="language-lisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre><span class="p">(</span><span class="nb">use-package</span> <span class="nv">easy-jekyll</span>
+<div class="language-lisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nb">use-package</span> <span class="nv">easy-jekyll</span>
 <span class="ss">:init</span>
 <span class="p">(</span><span class="k">setq</span> <span class="nv">easy-jekyll-basedir</span> <span class="s">"~/my-awesome-site/"</span><span class="p">)</span>
 <span class="p">(</span><span class="k">setq</span> <span class="nv">easy-jekyll-url</span> <span class="s">"https://yourblogdomain"</span><span class="p">)</span>
@@ -224,7 +216,7 @@
 <span class="p">(</span><span class="k">setq</span> <span class="nv">easy-jekyll-root</span> <span class="s">"/home/blog/"</span><span class="p">)</span>
 <span class="p">(</span><span class="k">setq</span> <span class="nv">easy-jekyll-previewtime</span> <span class="s">"300"</span><span class="p">)</span>
 <span class="ss">:bind</span> <span class="p">(</span><span class="s">"C-c C-e"</span> <span class="o">.</span> <span class="nv">easy-jekyll</span><span class="p">))</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <p>Here is the link to <code class="highlighter-rouge">easy-jekyll</code> on Github:
 https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)</p>
@@ -266,7 +258,7 @@ https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)</p>
       
 
       <li class="item  item--nav">
-        <a href="/zhu/#top">Back to top</a>
+        <a href="/chen/#top">Back to top</a>
       </li>
     
   </ul>
@@ -286,7 +278,7 @@ https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)</p>
     }
 
     navigator.serviceWorker
-      .register("/zhu/sw.js")
+      .register("/chen/sw.js")
       .then(registration => {
         console.log("Service Worker: registered");
       })

@@ -14,6 +14,6 @@
   {% assign date_format = site.date_format | default: "%d %b %Y" %}
   {{ categories | append: "&nbsp;&middot;&nbsp;" }}<time datetime="{{ page.date | date_to_xmlschema }}" class="time">{{ page.date | date: date_format | append: "&nbsp;&middot;&nbsp;&nbsp;" }}</time> 
   {%if page.author %}
-  <u> {{page.author | prepend: "An un-thought by &nbsp;&middot;"}} </u>   
+  <u> {{page.author | prepend: "An un-thought by &nbsp;&middot;&nbsp;"}} </u>   
   {% endif %}
 </small>
