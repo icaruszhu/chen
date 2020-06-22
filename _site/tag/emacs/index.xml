@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Your Title - emacs</title>
+ <link href="http://example.com/tag/emacs/index.xml" rel="self"/>
+ <link href="http://example.com/tag/emacs.html"/>
+ <updated>2020-06-21T23:51:28+01:00</updated>
+ <id>http://example.com/tag/emacs.html</id>
+ <author>
+   <name>Author Here</name>
+ </author>
+ 
+ <entry>
+   <title>writing-org-post-with-easy-jekyll</title>
+   <link href="http://example.com/emacs/tech%20note/2020/06/18/writing-org-post-with-easy-jekyll/"/>
+   <updated>2020-06-18T17:23:27+01:00</updated>
+   <id>http://example.com/emacs/tech%20note/2020/06/18/writing-org-post-with-easy-jekyll</id>
+   <content type="html">&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;test&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h1&gt;basic&lt;/h1&gt;
+&lt;p&gt;It is possible to write org-mode files with the &lt;code&gt;jekyll-org&lt;/code&gt; plug-in.&lt;/p&gt;
+&lt;p&gt;[more detail to follow]&lt;/p&gt;
+&lt;h1&gt;two approaches&lt;/h1&gt;
+&lt;h1&gt;sharing the code&lt;/h1&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>jekyll-scholar plugin with "git subtree"</title>
+   <link href="http://example.com/tech%20note/2020/06/17/jekyll-scholar/"/>
+   <updated>2020-06-17T22:37:12+01:00</updated>
+   <id>http://example.com/tech%20note/2020/06/17/jekyll-scholar</id>
+   <content type="html">&lt;p&gt;[to be finished]
+Jekyll-scholar is a wonderful jekyll plug-in for generating bibliographies from one’s bibtex file. I have a master bib file automatically generated from Zotero.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;comment out the code in deploy.sh and add this line&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;git subtree push &lt;span class=&quot;nt&quot;&gt;--prefix&lt;/span&gt; _site origin gh-pages
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;or you can do it from the command line&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;echo &quot;git subtree push --prefix _site origin gh-pages&quot; &amp;gt;&amp;gt; deploy.sh&lt;/code&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+</feed>

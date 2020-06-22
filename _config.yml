@@ -1,0 +1,162 @@
+# Set theme
+#remote_theme: daviddarnes/alembic
+
+# this gem-installed theme is not supported by gh-pages; must be built locally first
+theme: alembic-jekyll-theme
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- deploy.sh
+- deploy-original.sh
+
+# include
+# important: this will make the jekyll root less cluttered
+# see  
+include: 
+- _pages
+- _posts
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+- jekyll-remote-theme
+
+
+# install the "jekyll-scholar" plugin (not supported by gh-pages); must build the site locally: 18 June 2020
+- jekyll-scholar
+
+# install jekyll-org: 18 June 2020
+- jekyll-org
+
+# install jekyll-toc: 19 June 2020 [does not work well]
+#- jekyll-toc
+
+
+
+  
+# try tocGenerator 
+tocGenerator:
+    showToggleButton: true
+    anchorPrefix: mulu
+    
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: /home/chen/Documents/
+  bibliography: chenzhu.bib
+  bibliography_template: ""
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
+
+# Site settings
+url: 'https://icaruszhu.github.io'
+baseurl: '/zhu'
+title: 'Chen Zhu'
+
+twitter_username: cwzhu
+github_username:  icaruszhu
+
+description: 'Un-Teaching and Intellectual Un-Property'
+
+permalink: pretty
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Header nav
+navigation_header:
+- title: Home
+  url: /
+- title: About
+  url: /about/
+  
+- title: Publication
+  url: /publication/
+
+- title: Music Law
+  url: /music-law/
+
+- title: FOSS
+  url: /seminar/
+
+- title: Org-mode
+  url: /org-mode/
+
+- title: Un-thoughts
+  url: /blog/  
+
+- title: Search
+  url: /search/
+
+# Footer nav
+navigation_footer:
+- title: Back to top
+  url: "#top"
+
+# Collections
+collections:
+  posts:
+    title: Law, Technê & Un-thoughts  
+    output: true
+    description: |
+          #### 砍柴不误磨刀功 
+    feature_text: | 
+          # 所 | 思 | 匪 | 夷 
+          ```$ touch .author``` <br /> 
+          ```$ echo "chen zhu" > .author``` <br /> 
+          ```$ echo ".author" >> .gitignore```
+    feature_image: "https://raw.githubusercontent.com/icaruszhu/learning/master/image/Icarus%20Banksymus%20Maximus.jpg"
+
+# add markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+  # enable line_numbers in code blocks
+  #syntax_highlighter_opts:
+        #block:
+            #line_numbers: true  
+highlighter: rouge
+
+# speed up Alembic by enabling inline CSS (off by default)
+css_inline: true 
+
+
+# define your layout used to generate tag pages like:
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# optionally define a per tag Atom/RSS feed
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+
+tag_permalink_style: pretty

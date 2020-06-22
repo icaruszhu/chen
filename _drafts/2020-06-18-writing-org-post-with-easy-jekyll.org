@@ -1,0 +1,30 @@
+
+#+layout: post
+#+title:  writing-org-post-with-easy-jekyll
+#+date:   2020-06-18 17:23:27 +0100
+#+categories: emacs "tech note"
+#+tags: emacs customisation
+#+liquid: enabled
+#+author: chen
+
+
+#+BEGIN_SRC python :results output
+for i in "test":
+    print (i)
+#+END_SRC
+
+#+RESULTS:
+: t
+: e
+: s
+: t
+
+
+* basic 
+It is possible to write org-mode files with the ~jekyll-org~ plug-in.
+
+[more detail to follow]
+
+* two approaches 
+
+* sharing the code 

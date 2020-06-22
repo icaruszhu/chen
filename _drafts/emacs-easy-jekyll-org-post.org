@@ -1,0 +1,8 @@
+
+#+layout: post
+#+title:  emacs-easy-jekyll-org-post
+#+date:   2020-06-18 17:20:04 +0100
+#+tags: emacs "easy jekyll"
+
+This is my first emacs- after using emacs for over a year.
+

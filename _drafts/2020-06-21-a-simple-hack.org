@@ -1,0 +1,10 @@
+
+#+layout: post
+#+title:  a-simple-hack
+#+date:   2020-06-21 19:13:41 +0100
+#+author: 
+#+categories: 
+#+tags: 
+
+a hack
+
