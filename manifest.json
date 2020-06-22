@@ -1,0 +1,9 @@
+{
+  "lang": "en-US",
+  "name": "Chen Zhu",
+  "short_name": "ChenZhu",
+  "theme_color": "#24292e",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}

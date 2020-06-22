@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Your Title - customisation</title>
+ <link href="http://example.com/tag/customisation/index.xml" rel="self"/>
+ <link href="http://example.com/tag/customisation.html"/>
+ <updated>2020-06-21T23:51:28+01:00</updated>
+ <id>http://example.com/tag/customisation.html</id>
+ <author>
+   <name>Author Here</name>
+ </author>
+ 
+ <entry>
+   <title>writing-org-post-with-easy-jekyll</title>
+   <link href="http://example.com/emacs/tech%20note/2020/06/18/writing-org-post-with-easy-jekyll/"/>
+   <updated>2020-06-18T17:23:27+01:00</updated>
+   <id>http://example.com/emacs/tech%20note/2020/06/18/writing-org-post-with-easy-jekyll</id>
+   <content type="html">&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;test&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h1&gt;basic&lt;/h1&gt;
+&lt;p&gt;It is possible to write org-mode files with the &lt;code&gt;jekyll-org&lt;/code&gt; plug-in.&lt;/p&gt;
+&lt;p&gt;[more detail to follow]&lt;/p&gt;
+&lt;h1&gt;two approaches&lt;/h1&gt;
+&lt;h1&gt;sharing the code&lt;/h1&gt;
+</content>
+ </entry>
+ 
+</feed>
