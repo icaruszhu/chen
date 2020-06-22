@@ -1,20 +1,14 @@
 ---
-layout: page
+layout: page-original
 title: About YALA
 permalink: /about/
+
 ---
 
-> >
-> > Un-Teaching is the end of teaching, but the beginning of learning.
-> >
+-------------------------
+chen.zhu.YALA (Yet Another Legal Academic) 
 
--- chen.zhu.YALA (Yet Another Legal Academic) 
-
-**Table of Contents**
-* Table of Contents
-{:toc}
-
-------
+---------------------
 
 
 

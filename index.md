@@ -26,3 +26,6 @@ Footnote: YALA's low-fidelity reproduction of the [Banksymus Maximus](http://new
 
 
 
+ ```(goto-char (point-min))``` 
+[_YALA @ github_  ](https://github.com/icaruszhu)
+```(goto-char (point-max))``` 

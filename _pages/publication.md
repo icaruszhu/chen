@@ -1,9 +1,12 @@
 ---
-layout: page
+layout: page-original
 title: Publications
 permalink: "/publication/"
-toc: true
 ---
+
+------------------------------
+
+
 
 # selected publications in English
 
