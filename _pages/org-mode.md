@@ -229,7 +229,7 @@ echo "## level 2" | pandoc
   - add the `psamim-org-zotero` layer to \~/.spacema
     cs
 
-# Summary: some useful spacemacs key chords
+# Summary: some useful spacemacs key bindings
 
   - Undo: C-/
   - Undo Tree: C-x u ("q" for quit)
@@ -238,3 +238,7 @@ echo "## level 2" | pandoc
   - Deft: Alt-m a n
   - Pandoc: Alt-m P /
     
+
+
+
+```M-x butterfly```

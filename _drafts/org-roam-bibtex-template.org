@@ -1,0 +1,94 @@
+
+#+layout: post
+#+title:  My org-roam bibtex template
+#+date:   2020-07-05 18:29:34 +0100
+#+liquid: enabled
+#+author: Chen Zhu
+#+categories: 
+#+tags: 
+#+roam_alias:
+#+roam_tags: blog
+
+
+#+BEGIN_SRC emacs-lisp
+;; * set orb-templates [2020-07-05 Sun]
+;; source: https://emacs.stackexchange.com/questions/59126/how-to-configure-org-roam-bibtex-properly
+;; cz: I added Zotero-tags & authorless reference [2020-07-05 Sun]
+(setq orb-preformat-keywords
+      '("=key=" "title" "url" "file" "author-or-editor" "keywords"))
+
+(setq orb-templates
+      '(
+	("f" "full reference" plain (function org-roam-capture--get-point)
+	 ""
+	 :file-name "lit-${slug}"
+	 :head "#+TITLE: ${author-or-editor}---${title}\n#+ROAM_KEY: ${ref}\n#+ROAM_TAGS: literature\n
+
+* ${title}
+	 :PROPERTIES:
+	 :Custom_ID: ${=key=}
+	 :AUTHOR: ${author-or-editor}
+         :Zotero-tags: ${keywords}
+	 :NOTER_DOCUMENT: %(orb-process-file-field \"${=key=}\")
+	 :NOTER_PAGE:
+	 :END:
+
+* Chen's Note
+	 "
+	 :unnarrowed t)
+	
+	("o" "orphaned reference (with no author) " plain (function org-roam-capture--get-point)
+	 ""
+	 :file-name "lit-${slug}"
+	 :head "#+TITLE: ${title}\n#+ROAM_KEY: ${ref}\n#+ROAM_TAGS: literature\n
+
+* ${title}
+	 :PROPERTIES:
+	 :Custom_ID: ${=key=}
+         :Zotero-tags: ${keywords}
+	 :NOTER_DOCUMENT: %(orb-process-file-field \"${=key=}\")
+	 :NOTER_PAGE:
+	 :END:
+
+* Chen's Note
+	 "
+	 :unnarrowed t
+	 )
+
+	("c" "legal [c]ases" plain (function org-roam-capture--get-point)
+	 ""
+	 :file-name "case-${slug}"
+	 :head "#+TITLE: ${title}\n#+ROAM_KEY: ${ref}\n#+ROAM_TAGS: \"legal case\"\n
+
+* ${title}
+	 :PROPERTIES:
+	 :Custom_ID: ${=key=}
+         :Zotero-tags: ${keywords}
+	 :NOTER_DOCUMENT: %(orb-process-file-field \"${=key=}\")
+	 :NOTER_PAGE:
+	 :END:
+
+* Chen's Note
+	 "
+	 :unnarrowed t)
+
+	("l" "legislation " plain (function org-roam-capture--get-point)
+	 ""
+	 :file-name "legis-${slug}"
+	 :head "#+TITLE: ${title}\n#+ROAM_KEY: ${ref}\n#+ROAM_TAGS: legislation\n
+
+* ${title}
+	 :PROPERTIES:
+	 :Custom_ID: ${=key=}
+         :Zotero-tags: ${keywords}
+	 :NOTER_DOCUMENT: %(orb-process-file-field \"${=key=}\")
+	 :NOTER_PAGE:
+	 :END:
+
+* Chen's Note
+	 "
+	 :unnarrowed t
+	 )
+	
+	))
+#+END_SRC

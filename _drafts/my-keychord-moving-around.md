@@ -13,7 +13,7 @@ Emacs has [xxx] default keybindings. It is impossible to remember all of them an
 I find it keychord     (I discover keychord.el thanks to ```Prelude``` Emacs configuration. 
 
 
-I find rarely use ```org-refile``` and ```org-copy```, partly because I have too many org files (over 120 of them in my ```deft``` folder) and even more sub-trees in those files. It is hard to remember where to I am going to refile something to another sub-heading in another file.
+I rarely use ```org-refile``` and ```org-copy```, partly because I have too many org files (over 500 of them in my ```deft``` folder) and even more sub-trees in those files. It is hard to remember where to I am going to refile something to another sub-heading in another file.
 
 Do not conflate ```org-copy``` and ```org-copy-subtree```. The former is specially for refiling and the latter does what is said on the tin. 
 ~~~lisp

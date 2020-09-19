@@ -1,0 +1,32 @@
+
+#+layout: post
+#+title:  Classical Chinese as a Programming Language
+#+date:   2020-06-22 21:05:23 +0100
+#+liquid: enabled
+
+#+author: Chen Zhu
+#+categories: 
+#+tags: esolang
+
+#+roam_alias:
+#+roam_tags: blog
+
+This is one of my favourite talks from youtube. Does that mean classical Chinese is also Turing complete?
+
+
+{% include video.html id='vBhg2p8aAQ0' %}
+
+
+No surprise that this project called  =Wenyan= (文言文編程語言) [[https://github.com/wenyan-lang/wenyan][A programming language for the ancient Chinese]] has gathered 16k stars on Github. A ~for~ loop that prints  =Hello World= for three times would look like this:
+
+
+#+BEGIN_QUOTE
+吾有一數。曰三。名之曰「甲」。
+為是「甲」遍。
+        吾有一言。曰「「問天地好在。」」。書之。
+云云。
+#+END_QUOTE
+
+
+
+Also, Chinese characters (that are composed of radicals)  also seem to be conducive to the idea of modal editing. Maybe all Chinese scholars should use Vim or Emacs evil-mode for Chinese text editing ;-) 

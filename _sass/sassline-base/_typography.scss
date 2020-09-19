@@ -315,11 +315,11 @@ a {
     padding-top: 3rem;
   }
 
-  // Code block.
+  // Code block. modified by Chen sep 2020
   code, pre {
     background-color: #FDF6E3; //cz:鹅黄色 20 June 2020
     border: 1px dashed #000000; //black
-    border-radius: 25px;
+    border-radius: 15px; //round corner
     font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
 /*     font-family: unquote(map-get($monospacetype, font-family)); */
   }

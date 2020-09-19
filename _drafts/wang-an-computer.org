@@ -6,6 +6,9 @@
 #+author: 
 #+categories: 
 #+tags: 
+#+roam_alias:
+#+roam_tags: blog
+
 
 矮大紧说王安， 提到 “一代半”最厉害。够小
 

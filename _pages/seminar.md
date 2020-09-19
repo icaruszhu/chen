@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-original
 title: FOSS seminar
 permalink: /seminar/
 author: Chen Zhu

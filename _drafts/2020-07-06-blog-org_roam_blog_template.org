@@ -1,0 +1,23 @@
+#+title:Make a blog template for  Org-roam 
+#+author: Chen Zhu
+#+layout: post
+#+date: 2020-07-02 Mon
+#+liquid: enabled
+#+categories:
+#+tags: org-roam
+#+roam_alias:
+#+roam_tags: blog org-roam 
+
+
+
+#+BEGIN_SRC emacs-lisp
+	
+         ("b" "blog post (draft)" plain (function org-roam-capture--get-point)
+	 "%?"
+	 :file-name "/home/chen/Documents/deft-journal/chen-git-subtree/_drafts/blog-${slug}"
+	 :head "#+title:${title}\n#+author: Chen Zhu\n#+layout: post\n#+date: %<%Y-%m-%d %a>\n#+liquid: enabled\n#+categories:\n#+tags:  \n#+roam_alias:\n#+roam_tags: blog\n\n") 
+
+#+END_SRC
+
+
+~#+layout: post\n#+date: %<%Y-%m-%d %a>\n~

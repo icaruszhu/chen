@@ -4,5 +4,21 @@
 #+date:   2020-06-18 17:20:04 +0100
 #+tags: emacs "easy jekyll"
 
-This is my first emacs- after using emacs for over a year.
+I feel ashamed to call this an emac package. It is small hack that extends ~esay-jekyll~ for writing blogpost in org-mode. 
+
+The vinilla ~easy-jekyll~ only allows you to write your post in markdown.  
+
+I write ~easy-jekyll-org-newpost~ to allow me to start an org file. This function depends on the =jekyll-org= plugin. 
+
+
+ an un-package, which I write 
+
+I do not want to clutter my init.el further as there is quite some code. I decide to put all the relevent code into one single which can be shared and re-used with the rest of the world. 
+
+
+
+  
+
+
+This is my first emacs un-package.  after using emacs for over a year.
 

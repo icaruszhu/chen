@@ -22,8 +22,9 @@ $bodytype: (
   cap-height: 0.75
 ) !default;
 
+/* cz: change font to Walter Turncoat & Ma Shan Zheng, 6 Sep 2020 */
 $headingtype: (
-  font-family: '"Merriweather", serif',
+  font-family: '"Walter Turncoat", "Ma Shan Zheng"',
   regular: 400,
   bold: 700,
   cap-height: 0.75
@@ -34,6 +35,29 @@ $monospacetype: (
   regular: 400,
   cap-height: 0.68
 ) !default;
+
+// blockquote styling 6 sept 2020
+// source: https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
+
+/*blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}*/
+
 
 // Font import, if you're using a non-standard web font
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");

@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 -------------------------
-chen.zhu.YALA (Yet Another Legal Academic) 
+chen.zhu.[YALA](https://icaruszhu.github.io/) (Yet Another Legal Academic) 
 
 ---------------------
 
@@ -15,20 +15,19 @@ chen.zhu.YALA (Yet Another Legal Academic)
 ## Chen Wei Zhu
 
 - Lecturer in Law  (College of Arts and Law, University of Birmingham)
-- Yet Another Legal Academic (who loves Emacs... ) 
+- Yet Another Legal Academic (who is addicted to Emacs... ) 
 
 -------------------------
 
+### Work Address 
+
+Birmingham Law School <br/>College of Arts and Law <br/>University of Birmingham <br/>Edgbaston, Birmingham <br/>West Midland <br/>United Kingdom <br/>B15 2TT
 
 
-### Qualification
+---------------
 
-- LLB (SISU, Shanghai) 
-- LLM (with Distinction, Edinburgh)  	
-- PhD (LSE)  	
-- Fellow of High Education Academy  (UK)	
+### Research 
 
-### Research interest
 - Historical and Theoretical Aspects of Copyright Law
 - Moral Rights Claim/Legal Construction of Authorship
 - Law of Trade Marks and Brands
@@ -41,21 +40,3 @@ chen.zhu.YALA (Yet Another Legal Academic)
 - LLB Intellectual Property  (LLB, final year, module leader)
 - LLB Contemporary Issues in International Law and Globalisation (LLB, Year 2)
 - LLM Intellectual Property Law--An advanced IP course (module leader)
-
-### Administrative Service
-- LLM Pathway Director (Commercial & International Commercial Law) 
-- Programme Director of LLB with Business 
-- International Committee, College of Arts and Law, University of Birmingham 
-
-## Work Address
-Birmingham Law School <br/>College of Arts and Law <br/>University of Birmingham <br/>Edgbaston, Birmingham <br/>West Midland <br/>United Kingdom <br/>B15 2TT
-
----------------------
-
-
-
-## Past position
-
-- Postdoctoral Research Fellow 
-- The Institute for Advanced Studies in the Humanities (IASH)
-- University of Edinburgh
