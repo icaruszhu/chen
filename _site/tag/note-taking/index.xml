@@ -3,7 +3,7 @@
  <title>Your Title - note-taking</title>
  <link href="http://example.com/tag/note-taking/index.xml" rel="self"/>
  <link href="http://example.com/tag/note-taking.html"/>
- <updated>2021-02-13T21:36:45+00:00</updated>
+ <updated>2021-02-13T21:49:11+00:00</updated>
  <id>http://example.com/tag/note-taking.html</id>
  <author>
    <name>Author Here</name>
@@ -15,7 +15,7 @@
    <updated>2020-09-20T00:00:00+01:00</updated>
    <id>http://example.com/2020/09/20/To-Deft-or-NotDeft</id>
    <content type="html">&lt;h1&gt;Deft, NotDeft and Xapian&lt;/h1&gt;
-&lt;p&gt;The number of my org notes in my &lt;code&gt;deft&lt;/code&gt; directories have gone beyond 600. To search from the official &lt;code&gt;deft&lt;/code&gt; interface becomes a bit clunky and unwieldy. So I finally decide to install the &lt;code&gt;NotDeft&lt;/code&gt; &lt;a href=&quot;https://tero.hasu.is/notdeft/&quot;&gt;package&lt;/a&gt; that employs the external search engine &amp;#8220;Xapian&amp;#8221;. One of the biggest advantages with &lt;code&gt;NotDeft&lt;/code&gt; is that you can have more granular search results.&lt;/p&gt;
+&lt;p&gt;The number of my org notes in my &lt;code&gt;deft&lt;/code&gt; directories has just gone beyond 600. To search from the official &lt;code&gt;deft&lt;/code&gt; interface becomes a bit clunky and unwieldy. So I finally decide to install the &lt;code&gt;NotDeft&lt;/code&gt; &lt;a href=&quot;https://tero.hasu.is/notdeft/&quot;&gt;package&lt;/a&gt; that employs the external search engine &amp;#8220;Xapian&amp;#8221;. One of the biggest advantages with &lt;code&gt;NotDeft&lt;/code&gt; is that you can have more granular search results.&lt;/p&gt;
 &lt;p&gt;For note-taking, I become attached to &lt;a href=&quot;https://github.com/org-roam/org-roam&quot;&gt;Org-Roam&lt;/a&gt;, which makes bi-directional linking incredibly easy and smooth. However, a normal Org-Roam query does not do a full-text search. That's why &lt;code&gt;NotDeft&lt;/code&gt; (with Xapian) is still relevant. &lt;code&gt;NotDeft&lt;/code&gt; and &lt;code&gt;Org-Roam&lt;/code&gt; complement, rather than compete against, each other. The two packages work together to build a desktop wiki system for my purpose.&lt;/p&gt;
 &lt;h1&gt;CJK search&lt;/h1&gt;
 &lt;p&gt;Notdeft's Xapian does not search for Chinese characters by default. You need to enable xapian to search for CJK characters (see an Emacs-China &lt;a href=&quot;https://emacs-china.org/t/notdeft/11314/8&quot;&gt;discussion here&lt;/a&gt;). Just add the follow elisp code to your emacs config file will do the trick.&lt;/p&gt;

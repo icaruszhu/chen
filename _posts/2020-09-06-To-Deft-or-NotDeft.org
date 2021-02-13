@@ -12,7 +12,7 @@
 
 * Deft, NotDeft and Xapian
 
-The number of my org notes in my =deft= directories have gone beyond 600. To search from the official =deft= interface becomes a bit clunky and unwieldy. So I finally decide to install the =NotDeft= [[https://tero.hasu.is/notdeft/][package]] that employs the external search engine "Xapian". One of the biggest advantages with =NotDeft= is that you can have more granular search results. 
+The number of my org notes in my =deft= directories has just gone beyond 600. To search from the official =deft= interface becomes a bit clunky and unwieldy. So I finally decide to install the =NotDeft= [[https://tero.hasu.is/notdeft/][package]] that employs the external search engine "Xapian". One of the biggest advantages with =NotDeft= is that you can have more granular search results. 
 
 For note-taking, I become attached to [[https://github.com/org-roam/org-roam][Org-Roam]], which makes bi-directional linking incredibly easy and smooth. However, a normal Org-Roam query does not do a full-text search. That's why =NotDeft= (with Xapian) is still relevant. =NotDeft= and =Org-Roam= complement, rather than compete against, each other. The two packages work together to build a desktop wiki system for my purpose.  
 
