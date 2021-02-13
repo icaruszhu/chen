@@ -8,11 +8,13 @@
 #+roam_alias:
 #+roam_tags: blog
 
-I have been longing for a digital visualiser that allows me to show my handwritten notes, objects (including pages from real physical books!) to my students for my remote teaching sessions. I write a lot on a whiteboard during our LLM seminars () in physical classrooms, but in the near-apocolypic  
+
+I have been longing for a digital visualiser that allows me to show my handwritten notes, objects (including pages from real physical books!) to my students for my remote teaching sessions. I write a lot on a whiteboard during our LLM seminars in physical classrooms, but in the near-apocolypic setting
 
 This means I need a second WebCam that will can auto-focus (and/or manually zoom in and out on) on things    the cheapest one cost you at least £50
- 
-Ken-A-Vision 7200HD Video Flex - Digital 3.2 Megapixel High Definition Document/Visualiser (USB; Carrying Case)
+
+- a HD video camera will cost over £600.
+Ken-A-Vision 7200HD Video Flex - Digital 3.2 Megapixel High Definition Document/Visualiser
 £686.17 
 object-oriented approach 
 

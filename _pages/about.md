@@ -8,6 +8,8 @@ permalink: /about/
 -------------------------
 chen.zhu.[YALA](https://icaruszhu.github.io/) (Yet Another Legal Academic) 
 
+{诸陈  匪思} 
+
 ---------------------
 
 
@@ -15,7 +17,7 @@ chen.zhu.[YALA](https://icaruszhu.github.io/) (Yet Another Legal Academic)
 ## Chen Wei Zhu
 
 - Lecturer in Law  (College of Arts and Law, University of Birmingham)
-- Yet Another Legal Academic (who is addicted to Emacs... ) 
+- Yet Another Legal Academic (who is addicted to Emacs...) 
 
 -------------------------
 

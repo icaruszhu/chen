@@ -1,0 +1,29 @@
+#+title:How to turn Legacy PPTX files to Org-Mode
+#+author: Chen Zhu
+#+layout: post
+#+date: 2020-10-06 Tue
+#+liquid: enabled
+#+categories:
+#+tags:  
+#+roam_alias:
+#+roam_tags: blog
+
+As I no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the ~org~ format. ~Pandoc~, at the moment, does seem to, support ~pptx~ as an input format, so I have to find a workaround. Here is a 3-step solution that seem to work well
+
+- a) use LibreOffice Impress to open an pptx files
+
+- b) Export pptx file to [[https://filedn.com/lvjEGnSit1pQw941XB4wFTk/blog-image/ppt2org/pptx2-single-html.png][as a single html (screenshot)]]
+
+#+BEGIN_EXPORT html
+
+<img src="https://filedn.com/lvjEGnSit1pQw941XB4wFTk/blog-image/ppt2org/pptx2-single-html.png" width="50%"> 
+
+#+END_EXPORT
+
+- c) Pandoc
+
+~pandoc legacy.html -o emacs-org.org~
+
+That's it!
+
+

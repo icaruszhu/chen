@@ -8,9 +8,9 @@
     
 
     
-      <!-- Begin Jekyll SEO tag v2.6.1 -->
+      <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Adopt easy-jekyll for emacs | Chen Zhu</title>
-<meta name="generator" content="Jekyll v3.8.7" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Adopt easy-jekyll for emacs" />
 <meta name="author" content="Chen Zhu" />
 <meta property="og:locale" content="en_US" />
@@ -21,8 +21,10 @@
 <meta property="og:site_name" content="Chen Zhu" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-05-30T23:03:07+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Adopt easy-jekyll for emacs" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","dateModified":"2020-05-30T23:03:07+01:00","datePublished":"2020-05-30T23:03:07+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/chen/2020/05/30/using-easy-jekyll/"},"headline":"Adopt easy-jekyll for emacs","author":{"@type":"Person","name":"Chen Zhu"},"description":"I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the easy-jekyll package, which can be installed from Melpa. One can also install it with the good old use-package in your emacs init file. The official package recommends the following code for installation:","url":"http://localhost:4000/chen/2020/05/30/using-easy-jekyll/","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/chen/2020/05/30/using-easy-jekyll/","datePublished":"2020-05-30T23:03:07+01:00","dateModified":"2020-05-30T23:03:07+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/chen/2020/05/30/using-easy-jekyll/"},"headline":"Adopt easy-jekyll for emacs","author":{"@type":"Person","name":"Chen Zhu"},"description":"I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the easy-jekyll package, which can be installed from Melpa. One can also install it with the good old use-package in your emacs init file. The official package recommends the following code for installation:","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -206,7 +208,7 @@
 </small>
 
     
-    <p>I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the <code class="highlighter-rouge">easy-jekyll</code> <a href="https://github.com/masasam/emacs-easy-jekyll">package</a>, which can be installed from <a href="https://melpa.org/#/easy-jekyll">Melpa</a>. One can also install it with the good old <a href="https://github.com/jwiegley/use-package"><code class="highlighter-rouge">use-package</code></a> in your emacs init file. The official package recommends the following code for installation:</p>
+    <p>I have now managed to integrate Jekyll blogging into my Emacs workflow. I am so glad to find the <code class="language-plaintext highlighter-rouge">easy-jekyll</code> <a href="https://github.com/masasam/emacs-easy-jekyll">package</a>, which can be installed from <a href="https://melpa.org/#/easy-jekyll">Melpa</a>. One can also install it with the good old <a href="https://github.com/jwiegley/use-package"><code class="language-plaintext highlighter-rouge">use-package</code></a> in your emacs init file. The official package recommends the following code for installation:</p>
 
 <div class="language-lisp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nb">use-package</span> <span class="nv">easy-jekyll</span>
 <span class="ss">:init</span>
@@ -218,16 +220,16 @@
 <span class="ss">:bind</span> <span class="p">(</span><span class="s">"C-c C-e"</span> <span class="o">.</span> <span class="nv">easy-jekyll</span><span class="p">))</span>
 </code></pre></div></div>
 
-<p>Here is the link to <code class="highlighter-rouge">easy-jekyll</code> on Github:
+<p>Here is the link to <code class="language-plaintext highlighter-rouge">easy-jekyll</code> on Github:
 https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)</p>
 
-<p>Once installed, the eponymous <code class="highlighter-rouge">easy-jekyll</code> command is recommeded to be bound to <code class="highlighter-rouge">C-c C-e</code> (see above). However, I find this keybinding clashes with <code class="highlighter-rouge">org-export-dispatch</code> if you are already working in an org file. So better avoid using <code class="highlighter-rouge">C-c C-e</code> here and choose a non-clashing keybinding, which can be easily done.</p>
+<p>Once installed, the eponymous <code class="language-plaintext highlighter-rouge">easy-jekyll</code> command is recommeded to be bound to <code class="language-plaintext highlighter-rouge">C-c C-e</code> (see above). However, I find this keybinding clashes with <code class="language-plaintext highlighter-rouge">org-export-dispatch</code> if you are already working in an org file. So better avoid using <code class="language-plaintext highlighter-rouge">C-c C-e</code> here and choose a non-clashing keybinding, which can be easily done.</p>
 
-<p>Following the instruction, I also need to write a simple  <code class="highlighter-rouge">delopy.sh</code> bash script stored in my jekyll root directory. This allows me to automatically <code class="highlighter-rouge">push</code> (aka “upload”) the updated blog article(s) to my github pages by pressing <code class="highlighter-rouge">G</code> on the keyboard.</p>
+<p>Following the instruction, I also need to write a simple  <code class="language-plaintext highlighter-rouge">delopy.sh</code> bash script stored in my jekyll root directory. This allows me to automatically <code class="language-plaintext highlighter-rouge">push</code> (aka “upload”) the updated blog article(s) to my github pages by pressing <code class="language-plaintext highlighter-rouge">G</code> on the keyboard.</p>
 
-<p>Once everything is (minimally) configured , <code class="highlighter-rouge">easy-jekyll</code> is truly EASY to use!</p>
+<p>Once everything is (minimally) configured , <code class="language-plaintext highlighter-rouge">easy-jekyll</code> is truly EASY to use!</p>
 
-<p>PS: I also learn that it is possible to write Jekyll blogs with Emacs’s super powerful <code class="highlighter-rouge">Org</code> mode. There seem to be many ways of doing this. Elsa Gonsiorowski has done a fantastic survey on different ways of implementing an Org-led workflow. https://www.gonsie.com/blorg/survey-org-jekyll.html</p>
+<p>PS: I also learn that it is possible to write Jekyll blogs with Emacs’s super powerful <code class="language-plaintext highlighter-rouge">Org</code> mode. There seem to be many ways of doing this. Elsa Gonsiorowski has done a fantastic survey on different ways of implementing an Org-led workflow. https://www.gonsie.com/blorg/survey-org-jekyll.html</p>
 
 
     <div class="share">
@@ -247,7 +249,7 @@ https://github.com/masasam/emacs-easy-jekyll (licensed under GPLv3)</p>
 <footer class="footer">
   <div class="container">
     <div class="copyright  typeset">
-      <small class="small">&copy; Chen Zhu 2020</small>
+      <small class="small">&copy; Chen Zhu 2021</small>
     </div>
 
     

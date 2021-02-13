@@ -29,7 +29,7 @@
       {
         "title": "IP Teaching in the new semester",
         "excerpt": " Recommended IP Textbooks: Reading Plan and Student Presentation - Spring 2020 \n\n",
-        "content": " Recommended IP Textbooks: Reading Plan and Student Presentation - Spring 2020 \n\n\n\nTwo new textbooks adopted for this academic year’s IP law teaching\n\n\n\n\n",
+        "content": " Recommended IP Textbooks: Reading Plan and Student Presentation - Spring 2020 \n\n\n\nTwo new textbooks adopted for this academic year’s IP law teaching\n\n\n\n",
         "url": "/chen/teaching/2020/01/16/IP-teaching/"
       },
     
@@ -61,6 +61,20 @@
         "url": "/chen/2020/06/10/templeOS/"
       },
     
+      {
+        "title": "Not Deft",
+        "excerpt": "Deft, NotDeft and Xapian\nThe number of my org notes in my deft directories have gone beyond 600. To search within the official deft interface becomes a bit clanky. So I finally decide to install notdeft with use the external search engine &#8220;Xapian&#8221;. One of the biggest advantages with notdeft is that you can have more granular search results using the right syntax.\nFor note-taking, I am also fond of Org-roam, which make bi-directional linking incredibly easy. However, an normal org-roam query does not do a full-text search. That's why I think notdeft is still relevant. The two packages complement, rather than, again each other for making your own desktop wiki.\ndeft is an emulation of Notational Velocity\nTags and Yasnippet Autocompletion\norg-roam search for org files' &#8220;titles&#8221; and &#8220;roam tags&#8221;\nIn order to make notdeft to search tags, one can either add #+keywords (or #+filetags:) at the beginning of an org file.\ncz's note: the mirrored keyword is to facilitate notdeft's Xapian query\nI write a simple yasnippet for autocompletion.\n# -*- mode: snippet ; require-final-newline: nil -*-\n# key: roam\n# name: roam-headings (roam)\n# contributor: Chen Zhu [2020-09-20]\n# cz&#39;s note: the mirrored keyword is to facilitate notdeft&#39;s Xapian query\n# --\n#+roam_alias:\n#+roam_tags: ${1:TAG}\n#+keywords: $1\n\nThis shows how the autocompletion work\nroam-snippet\nCJK search\nNotdeft's Xapian does not search for Chinese characters by default. You need to enable xapian to search for CJK characters (see an Emacs-China discussion here)\n(setenv &quot;XAPIAN_CJK_NGRAM&quot; &quot;1&quot;)\n\nDisplay markdown files in notdeft\nI also enable a few secondary extensions (such as markdown files) to be &#8220;seen&#8221; by notdeft. The code (setq notdeft-secondary-extensions &#39;(&quot;md&quot; &quot;markdown&quot; &quot;txt&quot;)) in my will do the trick.\n",
+        "content": "Deft, NotDeft and Xapian\nThe number of my org notes in my deft directories have gone beyond 600. To search within the official deft interface becomes a bit clanky. So I finally decide to install notdeft with use the external search engine &#8220;Xapian&#8221;. One of the biggest advantages with notdeft is that you can have more granular search results using the right syntax.\nFor note-taking, I am also fond of Org-roam, which make bi-directional linking incredibly easy. However, an normal org-roam query does not do a full-text search. That's why I think notdeft is still relevant. The two packages complement, rather than, again each other for making your own desktop wiki.\ndeft is an emulation of Notational Velocity\nTags and Yasnippet Autocompletion\norg-roam search for org files' &#8220;titles&#8221; and &#8220;roam tags&#8221;\nIn order to make notdeft to search tags, one can either add #+keywords (or #+filetags:) at the beginning of an org file.\ncz's note: the mirrored keyword is to facilitate notdeft's Xapian query\nI write a simple yasnippet for autocompletion.\n# -*- mode: snippet ; require-final-newline: nil -*-\n# key: roam\n# name: roam-headings (roam)\n# contributor: Chen Zhu [2020-09-20]\n# cz&#39;s note: the mirrored keyword is to facilitate notdeft&#39;s Xapian query\n# --\n#+roam_alias:\n#+roam_tags: ${1:TAG}\n#+keywords: $1\n\nThis shows how the autocompletion work\nroam-snippet\nCJK search\nNotdeft's Xapian does not search for Chinese characters by default. You need to enable xapian to search for CJK characters (see an Emacs-China discussion here)\n(setenv &quot;XAPIAN_CJK_NGRAM&quot; &quot;1&quot;)\n\nDisplay markdown files in notdeft\nI also enable a few secondary extensions (such as markdown files) to be &#8220;seen&#8221; by notdeft. The code (setq notdeft-secondary-extensions &#39;(&quot;md&quot; &quot;markdown&quot; &quot;txt&quot;)) in my will do the trick.\n",
+        "url": "/chen/2020/09/20/Not-Deft/"
+      },
+    
+      {
+        "title": "How to turn Legacy PPTX files to Org-Mode",
+        "excerpt": "As no longer use MS powerpoint for making  presentation slides, I need to convert all my old pptx files into the org format. Pandoc, at the moment, does seem to, support pptx as an input format, so I have to find  workaround. This is my  3-step solution:\na) use LibreOffice Impress to open an pptx files\nb) Export pptx file to as a single html (screenshot)\nc) Pandoc\n  ~pandoc legacy.pptx -o org-reveal-slides.org  - ~\nThat's it!\n",
+        "content": "As no longer use MS powerpoint for making  presentation slides, I need to convert all my old pptx files into the org format. Pandoc, at the moment, does seem to, support pptx as an input format, so I have to find  workaround. This is my  3-step solution:\na) use LibreOffice Impress to open an pptx files\nb) Export pptx file to as a single html (screenshot)\nc) Pandoc\n  ~pandoc legacy.pptx -o org-reveal-slides.org  - ~\nThat's it!\n",
+        "url": "/chen/2020/10/06/legacy_pptx_to_org/"
+      },
+    
   
   
   
@@ -88,7 +102,7 @@
   {
     "title": "IP Teaching in the new semester",
     "excerpt": "\n",
-    "content": " Recommended IP Textbooks: Reading Plan and Student Presentation - Spring 2020 \n\n\n\nTwo new textbooks adopted for this academic year’s IP law teaching\n\n\n\n\n",
+    "content": " Recommended IP Textbooks: Reading Plan and Student Presentation - Spring 2020 \n\n\n\nTwo new textbooks adopted for this academic year’s IP law teaching\n\n\n\n",
     "url": "/chen/_posts/2020-01-16-IP-teaching/"
   },
   
@@ -121,9 +135,23 @@
   },
   
   {
+    "title": false,
+    "excerpt": "\n",
+    "content": "Deft, NotDeft and Xapian\nThe number of my org notes in my deft directories have gone beyond 600. To search within the official deft interface becomes a bit clanky. So I finally decide to install notdeft with use the external search engine &#8220;Xapian&#8221;. One of the biggest advantages with notdeft is that you can have more granular search results using the right syntax.\nFor note-taking, I am also fond of Org-roam, which make bi-directional linking incredibly easy. However, an normal org-roam query does not do a full-text search. That's why I think notdeft is still relevant. The two packages complement, rather than, again each other for making your own desktop wiki.\ndeft is an emulation of Notational Velocity\nTags and Yasnippet Autocompletion\norg-roam search for org files' &#8220;titles&#8221; and &#8220;roam tags&#8221;\nIn order to make notdeft to search tags, one can either add #+keywords (or #+filetags:) at the beginning of an org file.\ncz's note: the mirrored keyword is to facilitate notdeft's Xapian query\nI write a simple yasnippet for autocompletion.\n# -*- mode: snippet ; require-final-newline: nil -*-\n# key: roam\n# name: roam-headings (roam)\n# contributor: Chen Zhu [2020-09-20]\n# cz&#39;s note: the mirrored keyword is to facilitate notdeft&#39;s Xapian query\n# --\n#+roam_alias:\n#+roam_tags: ${1:TAG}\n#+keywords: $1\n\nThis shows how the autocompletion work\nroam-snippet\nCJK search\nNotdeft's Xapian does not search for Chinese characters by default. You need to enable xapian to search for CJK characters (see an Emacs-China discussion here)\n(setenv &quot;XAPIAN_CJK_NGRAM&quot; &quot;1&quot;)\n\nDisplay markdown files in notdeft\nI also enable a few secondary extensions (such as markdown files) to be &#8220;seen&#8221; by notdeft. The code (setq notdeft-secondary-extensions &#39;(&quot;md&quot; &quot;markdown&quot; &quot;txt&quot;)) in my will do the trick.\n",
+    "url": "/chen/_posts/2020-09-20-Not-Deft/"
+  },
+  
+  {
+    "title": "How to turn Legacy PPTX files to Org-Mode",
+    "excerpt": "\n",
+    "content": "As no longer use MS powerpoint for making  presentation slides, I need to convert all my old pptx files into the org format. Pandoc, at the moment, does seem to, support pptx as an input format, so I have to find  workaround. This is my  3-step solution:\na) use LibreOffice Impress to open an pptx files\nb) Export pptx file to as a single html (screenshot)\nc) Pandoc\n  ~pandoc legacy.pptx -o org-reveal-slides.org  - ~\nThat's it!\n",
+    "url": "/chen/_posts/2020-10-06-legacy_pptx_to_org/"
+  },
+  
+  {
     "title": "About YALA",
     "excerpt": "\n",
-    "content": "\n\nchen.zhu.YALA (Yet Another Legal Academic)\n\n\n\nChen Wei Zhu\n\n\n  Lecturer in Law  (College of Arts and Law, University of Birmingham)\n  Yet Another Legal Academic (who is addicted to Emacs… )\n\n\n\n\nWork Address\n\nBirmingham Law School College of Arts and Law University of Birmingham Edgbaston, Birmingham West Midland United Kingdom B15 2TT\n\n\n\nResearch\n\n\n  Historical and Theoretical Aspects of Copyright Law\n  Moral Rights Claim/Legal Construction of Authorship\n  Law of Trade Marks and Brands\n  Ambush Marketing and Image Rights\n  Law and Software\n  Free and Open Source Software (FOSS) Licensing\n  Using FOSS Tools for Academic Writing\n\n\nTeaching\n\n  LLB Intellectual Property  (LLB, final year, module leader)\n  LLB Contemporary Issues in International Law and Globalisation (LLB, Year 2)\n  LLM Intellectual Property Law–An advanced IP course (module leader)\n\n",
+    "content": "\n\nchen.zhu.YALA (Yet Another Legal Academic)\n\n{诸陈  匪思}\n\n\n\nChen Wei Zhu\n\n\n  Lecturer in Law  (College of Arts and Law, University of Birmingham)\n  Yet Another Legal Academic (who is addicted to Emacs…)\n\n\n\n\nWork Address\n\nBirmingham Law School College of Arts and Law University of Birmingham Edgbaston, Birmingham West Midland United Kingdom B15 2TT\n\n\n\nResearch\n\n\n  Historical and Theoretical Aspects of Copyright Law\n  Moral Rights Claim/Legal Construction of Authorship\n  Law of Trade Marks and Brands\n  Ambush Marketing and Image Rights\n  Law and Software\n  Free and Open Source Software (FOSS) Licensing\n  Using FOSS Tools for Academic Writing\n\n\nTeaching\n\n  LLB Intellectual Property  (LLB, final year, module leader)\n  LLB Contemporary Issues in International Law and Globalisation (LLB, Year 2)\n  LLM Intellectual Property Law–An advanced IP course (module leader)\n\n",
     "url": "/chen/about/"
   },
   

@@ -129,7 +129,7 @@ collections:
     description: |
           #### 砍柴不误磨刀功 
     feature_text: | 
-          # 所 | 思 | 匪 | 夷 
+          # 所 | 思 | 匪 | 夷 | 诸 | 味 | 杂 | 陈 
           ```$ touch .author``` <br /> 
           ```$ echo "chen zhu" > .author``` <br /> 
           ```$ echo ".author" >> .gitignore```

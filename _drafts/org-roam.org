@@ -47,9 +47,6 @@ cite:${1:$$(completing-read
 I use =okular= as my external PDF viewer in addition to emacs =pdf-tools=
 
 
-
-
-
 ** PS: I choose to turn off warning broken links
 ~(setq  org-ref-show-broken-links nil)~    
 

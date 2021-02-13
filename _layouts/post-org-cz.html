@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<main class="main  container">
+
+  <article class="article  article--post  content  typeset">
+
+    <!--cz: replace "_" with " " (SPACE) 20 sep 2020; does not work for my purpose  -->
+    <h1>{{ page.title | replace: "_" , " " }}</h1>
+
+    <!--   cz:  include my modified post-meta.html %} -->
+    {% include post-meta-author-cz.html %}
+    
+    {{ content | toc_generate }}
+
+    {% include nav-share.html %}
+
+    {% include post-comments.html %}
+
+  </article>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+
+</main>
+
+{% include site-footer.html %}

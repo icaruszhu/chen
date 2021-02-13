@@ -1,0 +1,42 @@
+#+title:Berne Contracting Parties and Python
+#+author: Chen Zhu
+#+layout: post
+#+date: 2020-10-06 Tue
+#+liquid: enabled
+#+categories:
+#+tags:  
+#+roam_alias:
+#+roam_tags: blog
+
+
+- Each year when I teach international copyright, I will need to check the As of Feburary 2021, there is 
+I have embedded in my ~reveal.js~ slides
+
+
+The code look like this:
+
+#+BEGIN_SRC python :eval never-export :export results :results raw :async t
+import pandas as pd
+url = "https://www.wipo.int/treaties/en/ShowResults.jsp?lang=en&treaty_id=15"
+df = pd.read_html(url) 
+print (f'Number of Tables: {(len(df))}')
+# print (df[0].head())
+# print (df[0].tail())
+# print countries in the reversed alphebetic order 
+# df_sort = df[0].sort_values (by=["Contracting Party"],  ascending=False)
+# print (df_sort.head())
+
+# print countries names
+# df_countries = df[0][["Contracting Party"]].to_string
+df_countries = df[0][["Contracting Party"]].to_string
+
+print (df_countries)
+
+#+END_SRC
+
+#+RESULTS:
+: 405ada523401c0abd04171e7878e3e78
+
+
+
+- All I need to do to run the code by pressing ~Ctrl-C Ctrl-c~

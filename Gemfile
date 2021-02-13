@@ -12,6 +12,7 @@ gem "jemoji", "~> 0.9"
 gem "jekyll-remote-theme", "~> 0.3"
 gem "alembic-jekyll-theme"
 
+
 # 
 gem 'jekyll-scholar', group: :jekyll_plugins
 # 
@@ -25,3 +26,6 @@ gem 'pygments.rb'
 
 # install jekyll-tagging for tag cloud
 gem 'jekyll-tagging'
+
+# add the below line [2021-02-09]
+gem "kramdown-parser-gfm"
