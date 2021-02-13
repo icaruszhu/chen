@@ -14,8 +14,8 @@
 <meta property="og:title" content="How to turn Legacy PPTX files to Org-Mode" />
 <meta name="author" content="Chen Zhu" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="As no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the org format. Pandoc, at the moment, does seem to, support pptx as an input format, so I have to find workaround. This is my 3-step solution: a) use LibreOffice Impress to open an pptx files b) Export pptx file to as a single html (screenshot) c) Pandoc ~pandoc legacy.pptx -o org-reveal-slides.org - ~ That&#39;s it!" />
-<meta property="og:description" content="As no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the org format. Pandoc, at the moment, does seem to, support pptx as an input format, so I have to find workaround. This is my 3-step solution: a) use LibreOffice Impress to open an pptx files b) Export pptx file to as a single html (screenshot) c) Pandoc ~pandoc legacy.pptx -o org-reveal-slides.org - ~ That&#39;s it!" />
+<meta name="description" content="As I no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the org format. Pandoc, at the moment, does not seem to, support pptx as an input format, so I have to find a workaround. Here is a 3-step solution that seem to work well. Step (i) Use LibreOffice Impress to open an pptx files Step (ii) Export pptx file to as a single html file (and name it as legacy.html) Step (iii) Pandoc Finally, pandoc legacy.html -o emacs-org.org That&#39;s it!" />
+<meta property="og:description" content="As I no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the org format. Pandoc, at the moment, does not seem to, support pptx as an input format, so I have to find a workaround. Here is a 3-step solution that seem to work well. Step (i) Use LibreOffice Impress to open an pptx files Step (ii) Export pptx file to as a single html file (and name it as legacy.html) Step (iii) Pandoc Finally, pandoc legacy.html -o emacs-org.org That&#39;s it!" />
 <link rel="canonical" href="http://localhost:4000/chen/2020/10/06/legacy_pptx_to_org/" />
 <meta property="og:url" content="http://localhost:4000/chen/2020/10/06/legacy_pptx_to_org/" />
 <meta property="og:site_name" content="Chen Zhu" />
@@ -24,7 +24,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="How to turn Legacy PPTX files to Org-Mode" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/chen/2020/10/06/legacy_pptx_to_org/","datePublished":"2020-10-06T00:00:00+01:00","dateModified":"2020-10-06T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/chen/2020/10/06/legacy_pptx_to_org/"},"headline":"How to turn Legacy PPTX files to Org-Mode","author":{"@type":"Person","name":"Chen Zhu"},"description":"As no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the org format. Pandoc, at the moment, does seem to, support pptx as an input format, so I have to find workaround. This is my 3-step solution: a) use LibreOffice Impress to open an pptx files b) Export pptx file to as a single html (screenshot) c) Pandoc ~pandoc legacy.pptx -o org-reveal-slides.org - ~ That&#39;s it!","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/chen/2020/10/06/legacy_pptx_to_org/","datePublished":"2020-10-06T00:00:00+01:00","dateModified":"2020-10-06T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/chen/2020/10/06/legacy_pptx_to_org/"},"headline":"How to turn Legacy PPTX files to Org-Mode","author":{"@type":"Person","name":"Chen Zhu"},"description":"As I no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the org format. Pandoc, at the moment, does not seem to, support pptx as an input format, so I have to find a workaround. Here is a 3-step solution that seem to work well. Step (i) Use LibreOffice Impress to open an pptx files Step (ii) Export pptx file to as a single html file (and name it as legacy.html) Step (iii) Pandoc Finally, pandoc legacy.html -o emacs-org.org That&#39;s it!","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -208,11 +208,16 @@
 </small>
 
     
-    <p>As no longer use MS powerpoint for making  presentation slides, I need to convert all my old pptx files into the <code>org</code> format. Pandoc, at the moment, does seem to, support <code>pptx</code> as an input format, so I have to find  workaround. This is my  3-step solution:</p>
-<p>a) use LibreOffice Impress to open an pptx files</p>
-<p>b) Export pptx file to <a href="https://filedn.com/lvjEGnSit1pQw941XB4wFTk/blog-image/ppt2org/pptx2-single-html.png">as a single html (screenshot)</a></p>
-<p>c) Pandoc
-  ~pandoc legacy.pptx -o org-reveal-slides.org  - ~</p>
+    <p>As I no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the <code>org</code> format. <code>Pandoc</code>, at the moment, does not seem to, support <code>pptx</code> as an input format, so I have to find a workaround. Here is a 3-step solution that seem to work well.</p>
+<ul>
+  <li>Step (i) Use LibreOffice Impress to open an pptx files</li>
+  <li>Step (ii) Export pptx file to as a single html file (and name it as <code>legacy.html</code>)</li>
+</ul>
+<p><img src="https://filedn.com/lvjEGnSit1pQw941XB4wFTk/blog-image/ppt2org/pptx2-single-html.png" alt="https://filedn.com/lvjEGnSit1pQw941XB4wFTk/blog-image/ppt2org/pptx2-single-html.png" /></p>
+<ul>
+  <li>Step (iii)  Pandoc</li>
+</ul>
+<p>Finally, <code>pandoc legacy.html -o emacs-org.org</code></p>
 <p>That's it!</p>
 
 
