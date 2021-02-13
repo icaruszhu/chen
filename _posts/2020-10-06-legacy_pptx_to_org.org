@@ -8,17 +8,19 @@
 #+roam_alias:
 #+roam_tags: blog
 
-As I no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the ~org~ format. ~Pandoc~, at the moment, does not seem to, support ~pptx~ as an input format, so I have to find a workaround. Here is a 3-step solution that seem to work well.
+As I no longer use MS powerpoint for making presentation slides, I need to convert all my old pptx files into the ~org~ format. 
 
-- Step (i) Use LibreOffice Impress to open an pptx files
+~Pandoc~, at the moment, does not seem to support ~pptx~ as an input format. So I have to find a workaround. Here is a 3-step solution that seems to work well.
 
-- Step (ii) Export pptx file to as a single html file (and name it as ~legacy.html~)
+- Step (i): Use LibreOffice Impress to open an pptx files
+
+- Step (ii): Export pptx file to as a single html file (and name it as ~legacy.html~)
 #+ATTR_ORG: :width 300
 #+ATTR_HTML: :width 100
 #+ATTR_LATEX: :placement [h] :width 50%
 [[https://filedn.com/lvjEGnSit1pQw941XB4wFTk/blog-image/ppt2org/pptx2-single-html.png]]
 
-- Step (iii)  Pandoc
+- Step (iii):  Pandoc
 
 Finally, ~pandoc legacy.html -o emacs-org.org~
 
