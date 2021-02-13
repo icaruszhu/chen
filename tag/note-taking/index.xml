@@ -3,44 +3,28 @@
  <title>Your Title - note-taking</title>
  <link href="http://example.com/tag/note-taking/index.xml" rel="self"/>
  <link href="http://example.com/tag/note-taking.html"/>
- <updated>2021-02-13T16:06:43+00:00</updated>
+ <updated>2021-02-13T21:07:58+00:00</updated>
  <id>http://example.com/tag/note-taking.html</id>
  <author>
    <name>Author Here</name>
  </author>
  
  <entry>
-   <title>Not Deft</title>
-   <link href="http://example.com/2020/09/20/Not-Deft/"/>
+   <title>To Deft Or Notdeft</title>
+   <link href="http://example.com/2020/09/20/To-Deft-or-NotDeft/"/>
    <updated>2020-09-20T00:00:00+01:00</updated>
-   <id>http://example.com/2020/09/20/Not-Deft</id>
-   <content type="html">&lt;p&gt;Deft, NotDeft and Xapian&lt;/p&gt;
-&lt;p&gt;The number of my org notes in my &lt;code&gt;deft&lt;/code&gt; directories have gone beyond 600. To search within the official &lt;code&gt;deft&lt;/code&gt; interface becomes a bit clanky. So I finally decide to install &lt;code&gt;notdeft&lt;/code&gt; with use the external search engine &amp;#8220;Xapian&amp;#8221;. One of the biggest advantages with notdeft is that you can have more granular search results using the right syntax.&lt;/p&gt;
-&lt;p&gt;For note-taking, I am also fond of Org-roam, which make bi-directional linking incredibly easy. However, an normal org-roam query does not do a full-text search. That's why I think notdeft is still relevant. The two packages complement, rather than, again each other for making your own desktop wiki.&lt;/p&gt;
-&lt;p&gt;deft is an emulation of Notational Velocity&lt;/p&gt;
-&lt;h1&gt;Tags and Yasnippet Autocompletion&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;org-roam&lt;/code&gt; search for org files' &amp;#8220;titles&amp;#8221; and &amp;#8220;roam tags&amp;#8221;&lt;/p&gt;
-&lt;p&gt;In order to make notdeft to search tags, one can either add #+keywords (or &lt;code&gt;#+filetags:&lt;/code&gt;) at the beginning of an org file.&lt;/p&gt;
-&lt;p&gt;cz's note: the mirrored keyword is to facilitate notdeft's Xapian query&lt;/p&gt;
-&lt;p&gt;I write a simple &lt;code&gt;yasnippet&lt;/code&gt; for autocompletion.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# -*- mode: snippet ; require-final-newline: nil -*-
-# key: roam
-# name: roam-headings (roam)
-# contributor: Chen Zhu [2020-09-20]
-# cz&amp;#39;s note: the mirrored keyword is to facilitate notdeft&amp;#39;s Xapian query
-# --
-#+roam_alias:
-#+roam_tags: ${1:TAG}
-#+keywords: $1
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This shows how the autocompletion work&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://filedn.com/lvjEGnSit1pQw941XB4wFTk/blog-image/notdeft/roam-yas-2020-09-20.gif&quot;&gt;roam-snippet&lt;/a&gt;&lt;/p&gt;
+   <id>http://example.com/2020/09/20/To-Deft-or-NotDeft</id>
+   <content type="html">&lt;h1&gt;Deft, NotDeft and Xapian&lt;/h1&gt;
+&lt;p&gt;The number of my org notes in my &lt;code&gt;deft&lt;/code&gt; directories have gone beyond 600. To search from the official &lt;code&gt;deft&lt;/code&gt; interface becomes a bit clunky and unwieldy. So I finally decide to install the &lt;code&gt;NotDeft&lt;/code&gt; &lt;a href=&quot;https://tero.hasu.is/notdeft/&quot;&gt;package&lt;/a&gt; that employs the external search engine &amp;#8220;Xapian&amp;#8221;. One of the biggest advantages with &lt;code&gt;NotDeft&lt;/code&gt; is that you can have more granular search results.&lt;/p&gt;
+&lt;p&gt;For note-taking, I become attached to &lt;a href=&quot;https://github.com/org-roam/org-roam&quot;&gt;Org-Roam&lt;/a&gt;, which makes bi-directional linking incredibly easy and smooth. However, a normal Org-Roam query does not do a full-text search. That's why &lt;code&gt;NotDeft&lt;/code&gt; (with Xapian) is still relevant. &lt;code&gt;NotDeft&lt;/code&gt; and &lt;code&gt;Org-Roam&lt;/code&gt; complement, rather than compete against, each other. The two packages work together to build a desktop wiki system for my purpose.&lt;/p&gt;
 &lt;h1&gt;CJK search&lt;/h1&gt;
-&lt;p&gt;Notdeft's Xapian does not search for Chinese characters by default. You need to enable xapian to search for CJK characters (see an Emacs-China &lt;a href=&quot;https://emacs-china.org/t/notdeft/11314/8&quot;&gt;discussion here&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Notdeft's Xapian does not search for Chinese characters by default. You need to enable xapian to search for CJK characters (see an Emacs-China &lt;a href=&quot;https://emacs-china.org/t/notdeft/11314/8&quot;&gt;discussion here&lt;/a&gt;). Just add the follow elisp code to your emacs config file will do the trick.&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;setenv&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;XAPIAN_CJK_NGRAM&amp;quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;1&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Display markdown files in notdeft&lt;/h1&gt;
-&lt;p&gt;I also enable a few secondary extensions (such as markdown files) to be &amp;#8220;seen&amp;#8221; by notdeft. The code &lt;code&gt;(setq notdeft-secondary-extensions &amp;#39;(&amp;quot;md&amp;quot; &amp;quot;markdown&amp;quot; &amp;quot;txt&amp;quot;))&lt;/code&gt; in my will do the trick.&lt;/p&gt;
+&lt;h1&gt;Display markdown files in NotDeft&lt;/h1&gt;
+&lt;p&gt;I also need to enable a few secondary extensions (such as markdown files) to be &amp;#8220;seen&amp;#8221; by NotDeft. This is achieved through adding &lt;code&gt;(setq notdeft-secondary-extensions &amp;#39;(&amp;quot;md&amp;quot; &amp;quot;markdown&amp;quot;))&lt;/code&gt; to my emacs config file.&lt;/p&gt;
+&lt;h1&gt;p.s.&lt;/h1&gt;
+&lt;p&gt;Deft is an emulation of &lt;a href=&quot;https://notational.net/&quot;&gt;Notational Velocity&lt;/a&gt;, which is said to be “modeless” and “mouseless” with the ability to do incremental searching.&lt;/p&gt;
 </content>
  </entry>
  
