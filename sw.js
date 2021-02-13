@@ -1,8 +1,8 @@
-const version = '20200919122135';
+const version = '20210213160643';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/2020/06/10/templeOS/","/2020/05/31/distro-hopping/","/2020/05/30/using-easy-jekyll/","/publication/2020/03/22/sumptuary-law/","/teaching/2020/01/16/IP-teaching/","/bitcoin/2019/06/28/non-digital-bitcoin/","/general/2016/01/01/bankymus/","/conference/2015/07/13/music-roundtable/","/_posts/2015-07-01-music-roundtable/","/_posts/2016-01-01-bankymus/","/_posts/2019-06-28-non-digital-bitcoin/","/_posts/2020-01-16-IP-teaching/","/_posts/2020-03-22-sumptuary-law/","/_posts/2020-05-30-using-easy-jekyll/","/_posts/2020-05-31-distro-hopping/","/_posts/2020-05-31-templeOS/","/about/","/categories/","/blog/","/","/ip/","/music-law/","/org-mode/","/publication/","/search/","/seminar/","/assets/styles.css","/manifest.json","/assets/search.json","/redirects.json","/sitemap.xml","/robots.txt","/blog/page2/","/feed.xml","", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/2020/10/06/legacy_pptx_to_org/","/2020/09/20/Not-Deft/","/2020/06/10/templeOS/","/2020/05/31/distro-hopping/","/2020/05/30/using-easy-jekyll/","/publication/2020/03/22/sumptuary-law/","/teaching/2020/01/16/IP-teaching/","/bitcoin/2019/06/28/non-digital-bitcoin/","/general/2016/01/01/bankymus/","/conference/2015/07/13/music-roundtable/","/_posts/2015-07-01-music-roundtable/","/_posts/2016-01-01-bankymus/","/_posts/2019-06-28-non-digital-bitcoin/","/_posts/2020-01-16-IP-teaching/","/_posts/2020-03-22-sumptuary-law/","/_posts/2020-05-30-using-easy-jekyll/","/_posts/2020-05-31-distro-hopping/","/_posts/2020-05-31-templeOS/","/_posts/2020-09-20-Not-Deft/","/_posts/2020-10-06-legacy_pptx_to_org/","/about/","/categories/","/blog/","/","/ip/","/music-law/","/org-mode/","/publication/","/search/","/seminar/","/assets/styles.css","/manifest.json","/assets/search.json","/redirects.json","/tag/note-taking/","/tag/note-taking/index.xml","/sitemap.xml","/robots.txt","/blog/page2/","/feed.xml","", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 
