@@ -75,13 +75,6 @@
         "url": "/chen/2020/10/06/legacy_pptx_to_org/"
       },
     
-      {
-        "title": "FOSS tools for online teaching",
-        "excerpt": "I am new to remote online teaching. Also, as a digital (and analogue) introvert, I feel nervous and apprehensive when talking in front of any camera to a pile of hardward.\nIn the near-apocalyptic era of Covid-19, I think I need to overcome my fear and embrace the brave new world of online teaching.\nAs I will need record quite a few lectures and lead interactive seminars,  I spent the whole summer watching various tutorials and testing my computers. Here are the three tools I have been using most.\ni) OBS: for recording lectures\nii) DroidCam: for turning an old mobile phone into a visualiser\niii)  Emacs org-mode: as an interactive seminar note book\n",
-        "content": "I am new to remote online teaching. Also, as a digital (and analogue) introvert, I feel nervous and apprehensive when talking in front of any camera to a pile of hardward.\nIn the near-apocalyptic era of Covid-19, I think I need to overcome my fear and embrace the brave new world of online teaching.\nAs I will need record quite a few lectures and lead interactive seminars,  I spent the whole summer watching various tutorials and testing my computers. Here are the three tools I have been using most.\ni) OBS: for recording lectures\nii) DroidCam: for turning an old mobile phone into a visualiser\niii)  Emacs org-mode: as an interactive seminar note book\n",
-        "url": "/chen/2021/02/13/blog-foss_tools_for_online_teaching/"
-      },
-    
   
   
   
@@ -156,16 +149,9 @@
   },
   
   {
-    "title": "FOSS tools for online teaching",
-    "excerpt": "\n",
-    "content": "I am new to remote online teaching. Also, as a digital (and analogue) introvert, I feel nervous and apprehensive when talking in front of any camera to a pile of hardward.\nIn the near-apocalyptic era of Covid-19, I think I need to overcome my fear and embrace the brave new world of online teaching.\nAs I will need record quite a few lectures and lead interactive seminars,  I spent the whole summer watching various tutorials and testing my computers. Here are the three tools I have been using most.\ni) OBS: for recording lectures\nii) DroidCam: for turning an old mobile phone into a visualiser\niii)  Emacs org-mode: as an interactive seminar note book\n",
-    "url": "/chen/_posts/2021-02-13-blog-foss_tools_for_online_teaching/"
-  },
-  
-  {
     "title": "About YALA",
     "excerpt": "\n",
-    "content": "\n\nchen.zhu.YALA (Yet Another Legal Academic)\n\n{诸陈  匪思}\n\n\n\nChen Wei Zhu\n\n\n  Lecturer in Law  (College of Arts and Law, University of Birmingham)\n  Yet Another Legal Academic (who is addicted to Emacs…)\n\n\n\n\nWork Address\n\nBirmingham Law School College of Arts and Law University of Birmingham Edgbaston, Birmingham West Midland United Kingdom B15 2TT\n\n\n\nResearch\n\n\n  Historical and Theoretical Aspects of Copyright Law\n  Moral Rights Claim/Legal Construction of Authorship\n  Law of Trade Marks and Brands\n  Ambush Marketing and Image Rights\n  Law and Software\n  Free and Open Source Software (FOSS) Licensing\n  Using FOSS Tools for Academic Writing\n\n\nTeaching\n\n  LLB Intellectual Property  (LLB, final year, module leader)\n  LLB Contemporary Issues in International Law and Globalisation (LLB, Year 2)\n  LLM Intellectual Property Law–An advanced IP course (module leader)\n\n",
+    "content": "\n\nchen.zhu.[YALA] (Yet Another Legal Academic)\n\n{诸陈 呀啦}\n\nChen Wei Zhu\n\n\n  Senior Lecturer  (College of Arts and Law, University of Birmingham)\n  Yet Another Legal Academic (who uses Emacs… )\n    \n      Intellectual (un)Property Law\n      Informational Jurisprudence\n      Contract and Licensing Law\n    \n  \n\n\n\n\nQualification\n\n\n  LLB (SISU, Shanghai)\n  LLM (with Distinction, Edinburgh)\n  PhD (LSE)\n  Fellow of High Education Academy  (UK)\n\n\nResearch interest\n\n  Historical and Theoretical Aspects of Copyright Law\n  Moral Rights Claim/Legal Construction of Authorship\n  Music Copyright\n    \n      Music Copyright in History\n      Music Borrowing and Copyright\n    \n  \n  Law of Trade Marks and Brands\n  Ambush Marketing and Image Rights\n  Law and Software\n  Free and Open Source Software (FOSS) Licensing\n  FOSS Authoring Tools for Legal Research\n\n\nTeaching\n\n  Intellectual Property Law  (LLB, final year, module leader)\n  Contemporary Issues in International Law and Globalisation (LLB, Year 2)\n  Intellectual Property Law (LLM: Advanced Topics)\n  Cyber Law (LLM)\n  Law and Software  (a new LLM module to be launched)\n\n\nWork Address\nBirmingham Law School College of Arts and Law University of Birmingham Edgbaston, Birmingham West Midland United Kingdom B15 2TT\n",
     "url": "/chen/about/"
   },
   
@@ -230,13 +216,6 @@
     "excerpt": "\n",
     "content": "\n",
     "url": "/chen/blog/page2/"
-  },
-  
-  {
-    "title": "Blog",
-    "excerpt": "\n",
-    "content": "\n",
-    "url": "/chen/blog/page3/"
   }
   
 ]
