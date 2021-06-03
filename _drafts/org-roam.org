@@ -14,7 +14,6 @@
    
 ** Three ways of opening a literature org-roam entry 
 
-
 *** 1) helm-bibtex
    =TAB= then press =[F9]=
 I bind my helm-bibtex to [F8]

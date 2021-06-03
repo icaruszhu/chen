@@ -15,8 +15,6 @@ I write ~easy-jekyll-org-newpost~ to allow me to start an org file. This functio
 
 I do not want to clutter my init.el further as there is quite some code. I decide to put all the relevent code into one single which can be shared and re-used with the rest of the world. 
 
-
-
   
 
 

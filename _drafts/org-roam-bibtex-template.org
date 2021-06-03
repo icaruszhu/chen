@@ -1,7 +1,7 @@
 
 #+layout: post
-#+title:  My org-roam bibtex template
-#+date:   2020-07-05 18:29:34 +0100
+#+title: My org-roam bibtex template
+#+date: 2021-02-13 
 #+liquid: enabled
 #+author: Chen Zhu
 #+categories: 
@@ -11,9 +11,7 @@
 
 
 #+BEGIN_SRC emacs-lisp
-;; * set orb-templates [2020-07-05 Sun]
-;; source: https://emacs.stackexchange.com/questions/59126/how-to-configure-org-roam-bibtex-properly
-;; cz: I added Zotero-tags & authorless reference [2020-07-05 Sun]
+
 (setq orb-preformat-keywords
       '("=key=" "title" "url" "file" "author-or-editor" "keywords"))
 
