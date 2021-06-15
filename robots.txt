@@ -1,1 +1,1 @@
-Sitemap: https://icaruszhu.github.io/chen/sitemap.xml
+Sitemap: http://localhost:4000/chen/sitemap.xml
