@@ -103,16 +103,4 @@
 <url>
 <loc>http://localhost:4000/chen/blog/page2/</loc>
 </url>
-<url>
-<loc>http://localhost:4000/chen/reveal/software-cr/Lecture-Software-Copyright-I-basics.html</loc>
-<lastmod>2021-04-18T23:26:54+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/chen/reveal/software-cr/Lecture-Software-Copyright-II-EU.html</loc>
-<lastmod>2021-04-26T12:32:18+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/chen/reveal/software-cr/Lecture-Software-Copyright-III-UK.html</loc>
-<lastmod>2021-05-11T17:07:00+01:00</lastmod>
-</url>
 </urlset>
