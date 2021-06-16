@@ -33,15 +33,13 @@ plugins:
 
 
 # install the "jekyll-scholar" plugin (not supported by gh-pages); must build the site locally: 18 June 2020
-- jekyll-scholar
+# - jekyll-scholar
 
 # install jekyll-org: 18 June 2020
 - jekyll-org
 
 # install jekyll-toc: 19 June 2020 [does not work well]
-#- jekyll-toc
-
-
+# - jekyll-toc
 
   
 # try tocGenerator 
@@ -49,30 +47,30 @@ tocGenerator:
     showToggleButton: true
     anchorPrefix: mulu
     
-scholar:
-  style: apa
-  locale: en
+# scholar:
+  # style: apa
+  # locale: en
 
-  sort_by: none
-  order: ascending
+  # sort_by: none
+  # order: ascending
 
-  group_by: none
-  group_order: ascending
+  # group_by: none
+  # group_order: ascending
 
-  source: /home/chen/Documents/
-  bibliography: chenzhu.bib
-  bibliography_template: ""
+  # source: /home/chen/Documents/
+  # bibliography: chenzhu.bib
+  # bibliography_template: ""
 
-  replace_strings: true
-  join_strings:    true
+  # replace_strings: true
+  # join_strings:    true
 
-  use_raw_bibtex_entry: false
+  # use_raw_bibtex_entry: false
 
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
+  # details_dir:    bibliography
+  # details_layout: bibtex.html
+  # details_link:   Details
 
-  query: "@*"
+  # query: "@*"
 
 
 # Site settings
@@ -113,8 +111,8 @@ navigation_header:
 - title: Un-thoughts
   url: /blog/  
 
-- title: Search
-  url: /search/
+# - title: Search
+  # url: /search/
 
 # Footer nav
 navigation_footer:
