@@ -12,14 +12,10 @@ aside: false
 
 Hello, welcome to Chen Wei Zhu's page.
 
-Chen is Yet Another Legal Academic, a.k.a. [YALA](https://icaruszhu.github.io/). 
-
-
-
+Chen is Yet Another Legal Academic, a.k.a. [YALA](https://icaruszhu.github.io/chen/about/). 
 
 
 <img src="https://raw.githubusercontent.com/icaruszhu/learning/master/Banksymus-logo.jpg" alt="banksymus" style="zoom:60%;" />
-
 
 
 Footnote: YALA's low-fidelity reproduction of the [Banksymus Maximus](http://news.bbc.co.uk/1/hi/entertainment/4563751.stm) clay tablet  (circa AD 2016) in the pre-apocalyptic Anthropocene. 
